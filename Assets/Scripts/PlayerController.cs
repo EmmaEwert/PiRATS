@@ -16,12 +16,12 @@ public class PlayerController : MonoBehaviour {
 
         var movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 		movement = Vector3.ClampMagnitude(movement, 1f);
-		movement = Quaternion.Euler(30f, 0f, 0f) * movement;
+		movement = Quaternion.Euler(transform.localRotation.eulerAngles.x, 0f, 0f) * movement;
 		rigidbody.MovePosition(rigidbody.position + new Vector2(movement.x, movement.y) * Δt * Speed);
 
 		var mouse = Camera.main.ScreenToViewportPoint(Input.mousePosition);
-		var aim = Vector2.SignedAngle(Vector2.up, mouse - Vector3.one * 0.5f);
-		aimIndicator.localRotation = Quaternion.Euler(60f, 0f, aim);
+		var aim = Vector3.SignedAngle(Vector3.up, mouse - new Vector3(0.5f, 0.5f), Vector3.forward);
+		aimIndicator.localRotation = Quaternion.Euler(-transform.localRotation.eulerAngles.x, 0f, aim);
 
 		if (Input.GetButtonDown("Fire1")) {
 			Instantiate(arrowPrefab, transform.position + Vector3.right * 0.5f, Quaternion.Euler(0f, 0f, aim - 45f));
