@@ -2947,6 +2947,16 @@ PrefabInstance:
       propertyPath: m_BodyType
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6772996114402978979, guid: 41d7d0e9e4c9fa34ab67d946df9d011a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4184304776049101237, guid: 41d7d0e9e4c9fa34ab67d946df9d011a,
+        type: 3}
+      propertyPath: m_Name
+      value: Sprite
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: -5545250535515266511, guid: 41d7d0e9e4c9fa34ab67d946df9d011a,
     type: 3}
