@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour {
 	const float Speed = 5f;
 
 	public Transform aimIndicator;
+	public GameObject arrowPrefab;
 
 #pragma warning disable 0108
 	Rigidbody2D	rigidbody => GetComponent<Rigidbody2D>();
@@ -21,5 +22,9 @@ public class PlayerController : MonoBehaviour {
 		var mouse = Camera.main.ScreenToViewportPoint(Input.mousePosition);
 		var aim = Vector2.SignedAngle(Vector2.up, mouse - Vector3.one * 0.5f);
 		aimIndicator.localRotation = Quaternion.Euler(60f, 0f, aim);
+
+		if (Input.GetButtonDown("Fire1")) {
+			Instantiate(arrowPrefab, transform.position + Vector3.right * 0.5f, Quaternion.Euler(0f, 0f, aim - 45f));
+		}
     }
 }

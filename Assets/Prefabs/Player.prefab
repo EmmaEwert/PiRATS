@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7633125385184953580}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Aim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2096738449148980679}
   - component: {fileID: 8705801295720750724}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -139,6 +139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aimIndicator: {fileID: 7633125385184953580}
+  arrowPrefab: {fileID: 796850721606778131, guid: da93631dc4f9b344880fa9965de595fe,
+    type: 3}
 --- !u!1 &6378478648358387298
 GameObject:
   m_ObjectHideFlags: 0
@@ -149,7 +151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7791951068946711976}
   - component: {fileID: 5545114185528555434}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +230,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6557033888720122587}
   - component: {fileID: 8372624367998821435}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Collider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -297,6 +299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187620975531175262, guid: bb126864d78ff054583bc400ecd25c2f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7587273533342407574, guid: bb126864d78ff054583bc400ecd25c2f,
         type: 3}
