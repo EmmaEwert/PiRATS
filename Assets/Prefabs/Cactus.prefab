@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8467657152222170600}
   - component: {fileID: 1986305166449280922}
   m_Layer: 0
-  m_Name: cactus_idle_32-Sheet_0
+  m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -99,6 +99,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4472346510049623712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125005599003611256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00aa2e23c6a429c4ab7e96f92b8e8c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thornPrefab: {fileID: 7030634888287036253, guid: 6de2276c93561d240804c705e0f60212,
+    type: 3}
+  delay: 0
+  charge: 0
 --- !u!1001 &1387494829051952422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -168,6 +184,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb126864d78ff054583bc400ecd25c2f, type: 3}
+--- !u!1 &7125005599003611256 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8187620975531175262, guid: bb126864d78ff054583bc400ecd25c2f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1387494829051952422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8793900760402093744 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7587273533342407574, guid: bb126864d78ff054583bc400ecd25c2f,
