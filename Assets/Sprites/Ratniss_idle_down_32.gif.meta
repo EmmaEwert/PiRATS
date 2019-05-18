@@ -1,28 +1,22 @@
 fileFormatVersion: 2
-guid: e5516fd7b738a024e9f70a8e31361726
+guid: 32a07040930aa374986979e6b9139922
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9083688735708335370
-    second: cactus_needle_shot_32_0
+      213: 9189437151753250830
+    second: Ratniss_idle_down_32_0
   - first:
-      213: -6799334907568704499
-    second: cactus_needle_shot_32_1
+      213: -4189521577107974788
+    second: Ratniss_idle_down_32_1
   - first:
-      213: -5922295353713297283
-    second: cactus_needle_shot_32_2
+      213: -6991252611417415405
+    second: Ratniss_idle_down_32_2
   - first:
-      213: -634586573239643120
-    second: cactus_needle_shot_32_3
+      213: -2784349455239488255
+    second: Ratniss_idle_down_32_3
   - first:
-      213: -1903336379494250600
-    second: cactus_needle_shot_32_4
-  - first:
-      213: 8858381474026312009
-    second: cactus_needle_shot_32_5
-  - first:
-      213: -6679749430759574261
-    second: cactus_needle_shot_32_6
+      213: -3721695115815765702
+    second: Ratniss_idle_down_32_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cactus_needle_shot_32_0
+      name: Ratniss_idle_down_32_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6946ef7c4ecf52b478fc414a2eea8149
-      internalID: 9083688735708335370
+      spriteID: 39a3eed5b4053f847aee1b548978e734
+      internalID: 9189437151753250830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_1
+      name: Ratniss_idle_down_32_1
       rect:
         serializedVersion: 2
-        x: 23
+        x: 32
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea2eeb4d946aa0e4e8f59513591ca43e
-      internalID: -6799334907568704499
+      spriteID: f6c27e746eda05a40b7812acb4f590f0
+      internalID: -4189521577107974788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_2
+      name: Ratniss_idle_down_32_2
       rect:
         serializedVersion: 2
-        x: 46
+        x: 64
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c8bb25b9f88614380b8cccea39ad22
-      internalID: -5922295353713297283
+      spriteID: b95fd1dd7d1758343b354f0d00402b11
+      internalID: -6991252611417415405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_3
+      name: Ratniss_idle_down_32_3
       rect:
         serializedVersion: 2
-        x: 69
+        x: 96
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 450c0d3d82ee9de48b669ab08c25b7db
-      internalID: -634586573239643120
+      spriteID: 50c7a7bc833351b419fb08bfea3eba2c
+      internalID: -2784349455239488255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_4
+      name: Ratniss_idle_down_32_4
       rect:
         serializedVersion: 2
-        x: 92
+        x: 128
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,50 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e3ced623337e8540a20326714639747
-      internalID: -1903336379494250600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cactus_needle_shot_32_5
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 0
-        width: 23
-        height: 7
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26bc50c5243dab64296bda668de1cb08
-      internalID: 8858381474026312009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cactus_needle_shot_32_6
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 0
-        width: 23
-        height: 7
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27fe6d68605605f439f1d0596a2321b9
-      internalID: -6679749430759574261
+      spriteID: 8f4c09034d8245c4aa8de6b721dd2ec4
+      internalID: -3721695115815765702
       vertices: []
       indices: 
       edges: []
@@ -265,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: cd058fe12b081da488fb54bee3337280
+    spriteID: 18f522515c76ae34d8ad31da250932fb
     internalID: 0
     vertices: []
     indices: 

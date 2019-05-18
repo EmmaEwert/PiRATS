@@ -1,28 +1,40 @@
 fileFormatVersion: 2
-guid: e5516fd7b738a024e9f70a8e31361726
+guid: a00d9513c1f85a9489c4168d9d916321
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9083688735708335370
-    second: cactus_needle_shot_32_0
+      213: -9122734759999252209
+    second: effect_smoke_small_16x16-sheet_0
   - first:
-      213: -6799334907568704499
-    second: cactus_needle_shot_32_1
+      213: 2714929680020680378
+    second: effect_smoke_small_16x16-sheet_1
   - first:
-      213: -5922295353713297283
-    second: cactus_needle_shot_32_2
+      213: 5383168129585484227
+    second: effect_smoke_small_16x16-sheet_2
   - first:
-      213: -634586573239643120
-    second: cactus_needle_shot_32_3
+      213: 815908676960838841
+    second: effect_smoke_small_16x16-sheet_3
   - first:
-      213: -1903336379494250600
-    second: cactus_needle_shot_32_4
+      213: 678435259046087658
+    second: effect_smoke_small_16x16-sheet_4
   - first:
-      213: 8858381474026312009
-    second: cactus_needle_shot_32_5
+      213: -7854595206628409564
+    second: effect_smoke_small_16x16-sheet_5
   - first:
-      213: -6679749430759574261
-    second: cactus_needle_shot_32_6
+      213: 9166527178246275183
+    second: effect_smoke_small_16x16-sheet_6
+  - first:
+      213: -2857881101427951302
+    second: effect_smoke_small_16x16-sheet_7
+  - first:
+      213: -1504051184359627541
+    second: effect_smoke_small_16x16-sheet_8
+  - first:
+      213: -4244677911713526756
+    second: effect_smoke_small_16x16-sheet_9
+  - first:
+      213: -6360377804084212639
+    second: effect_smoke_small_16x16-sheet_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cactus_needle_shot_32_0
+      name: effect_smoke_small_16x16-sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 23
-        height: 7
+        width: 16
+        height: 16
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6946ef7c4ecf52b478fc414a2eea8149
-      internalID: 9083688735708335370
+      spriteID: 786415d0abf04e74c87a7bdda960b192
+      internalID: -9122734759999252209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_1
+      name: effect_smoke_small_16x16-sheet_1
       rect:
         serializedVersion: 2
-        x: 23
+        x: 16
         y: 0
-        width: 23
-        height: 7
+        width: 16
+        height: 16
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea2eeb4d946aa0e4e8f59513591ca43e
-      internalID: -6799334907568704499
+      spriteID: 7e04ab1fffa381040a372f2f8b9398e4
+      internalID: 2714929680020680378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_2
+      name: effect_smoke_small_16x16-sheet_2
       rect:
         serializedVersion: 2
-        x: 46
+        x: 32
         y: 0
-        width: 23
-        height: 7
+        width: 16
+        height: 16
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c8bb25b9f88614380b8cccea39ad22
-      internalID: -5922295353713297283
+      spriteID: d3399c13087b31e4a9b9ce361e32d505
+      internalID: 5383168129585484227
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_3
+      name: effect_smoke_small_16x16-sheet_3
       rect:
         serializedVersion: 2
-        x: 69
+        x: 48
         y: 0
-        width: 23
-        height: 7
+        width: 16
+        height: 16
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 450c0d3d82ee9de48b669ab08c25b7db
-      internalID: -634586573239643120
+      spriteID: 069692b2815d4ca4f824e8f371debb60
+      internalID: 815908676960838841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_4
+      name: effect_smoke_small_16x16-sheet_4
       rect:
         serializedVersion: 2
-        x: 92
+        x: 64
         y: 0
-        width: 23
-        height: 7
+        width: 16
+        height: 16
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e3ced623337e8540a20326714639747
-      internalID: -1903336379494250600
+      spriteID: b7af8388ad500f040ab45349a386ea59
+      internalID: 678435259046087658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_5
+      name: effect_smoke_small_16x16-sheet_5
       rect:
         serializedVersion: 2
-        x: 115
+        x: 80
         y: 0
-        width: 23
-        height: 7
+        width: 16
+        height: 16
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26bc50c5243dab64296bda668de1cb08
-      internalID: 8858381474026312009
+      spriteID: bd7d9c95deed72646819b4fae2d03cf1
+      internalID: -7854595206628409564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_6
+      name: effect_smoke_small_16x16-sheet_6
       rect:
         serializedVersion: 2
-        x: 138
+        x: 96
         y: 0
-        width: 23
-        height: 7
+        width: 16
+        height: 16
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,8 +268,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27fe6d68605605f439f1d0596a2321b9
-      internalID: -6679749430759574261
+      spriteID: 97bc6b3af4123ff4e9b4b15b6cfe547a
+      internalID: 9166527178246275183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_smoke_small_16x16-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dc49df2d064afd4babe9e891b291c37
+      internalID: -2857881101427951302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_smoke_small_16x16-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f9e06e32db0be43a979778bf73c568
+      internalID: -1504051184359627541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_smoke_small_16x16-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 16
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 348932e07a62a8b438928e449e2e54b1
+      internalID: -4244677911713526756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: effect_smoke_small_16x16-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaaa32c3b2a74414f9b798610050e0ab
+      internalID: -6360377804084212639
       vertices: []
       indices: 
       edges: []
@@ -265,7 +361,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: cd058fe12b081da488fb54bee3337280
+    spriteID: 0d9ac5bf29a92d7498dda55b326bee05
     internalID: 0
     vertices: []
     indices: 

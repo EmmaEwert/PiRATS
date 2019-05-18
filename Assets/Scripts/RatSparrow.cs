@@ -20,15 +20,15 @@ public class RatSparrow : MonoBehaviour {
 
 		if (attack < 0.875f) {
 			var player = GameObject.FindObjectOfType<PlayerController>().transform;
-			attackX = player.position.x - transform.position.x;
+			attackX = Mathf.Lerp(attackX, player.position.x - transform.position.x, Δt);
 		}
 
 
 		for (var i = 0; i < tail.childCount; ++i) {
 			var child = tail.GetChild(i);
-			var tailPosition = new Vector3(Mathf.Cos(t + i) * i / 7f, (Mathf.Sin(t + i) * 0.5f + 0.5f) * i / 5f, -0.5f * i);
-			var attackPosition = Vector3.ClampMagnitude(new Vector3(attackX * 1.5f, -0.5f * i, -0.5f * i), i / 1.5f);
-			child.localPosition = Vector3.Lerp(tailPosition, attackPosition, Mathf.Pow(attack * Mathf.Pow(((8 - i) / 7f), 1f / 32f), 16f));
+			var tailPosition = new Vector3(Mathf.Cos(t + i / 2f) * i / (tail.childCount - 1f), (Mathf.Sin(t + i / 3f) * 0.5f + 0.5f) * i / (tail.childCount - 7f), -0.25f * i);
+			var attackPosition = Vector3.ClampMagnitude(new Vector3(attackX * 1f, -0.5f * i / 2f, -0.25f * i), i / 1.5f);
+			child.localPosition = Vector3.Lerp(tailPosition, attackPosition, Mathf.Pow(attack * Mathf.Pow(((tail.childCount - i) / (tail.childCount - 1f)), 1f / 32f), 16f));
 			var shadow = child.Find("Shadow");
 			var shadowPosition = shadow.position;
 			shadowPosition.z = 0f;

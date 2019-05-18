@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: e5516fd7b738a024e9f70a8e31361726
+guid: 25a01f52a9aba3a43added0faf3131b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9083688735708335370
-    second: cactus_needle_shot_32_0
+      213: 4314253393478187713
+    second: Ratniss_walk_down_32_0
   - first:
-      213: -6799334907568704499
-    second: cactus_needle_shot_32_1
+      213: 6775649135345770609
+    second: Ratniss_walk_down_32_1
   - first:
-      213: -5922295353713297283
-    second: cactus_needle_shot_32_2
+      213: -7221997319569624204
+    second: Ratniss_walk_down_32_2
   - first:
-      213: -634586573239643120
-    second: cactus_needle_shot_32_3
-  - first:
-      213: -1903336379494250600
-    second: cactus_needle_shot_32_4
-  - first:
-      213: 8858381474026312009
-    second: cactus_needle_shot_32_5
-  - first:
-      213: -6679749430759574261
-    second: cactus_needle_shot_32_6
+      213: -4623494602187986844
+    second: Ratniss_walk_down_32_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -116,13 +107,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cactus_needle_shot_32_0
+      name: Ratniss_walk_down_32_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6946ef7c4ecf52b478fc414a2eea8149
-      internalID: 9083688735708335370
+      spriteID: 709c31a50ad48174fa9b60a9cad34ca9
+      internalID: 4314253393478187713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_1
+      name: Ratniss_walk_down_32_1
       rect:
         serializedVersion: 2
-        x: 23
+        x: 32
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea2eeb4d946aa0e4e8f59513591ca43e
-      internalID: -6799334907568704499
+      spriteID: da24dff50e3625d4cb1160ca237af865
+      internalID: 6775649135345770609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_2
+      name: Ratniss_walk_down_32_2
       rect:
         serializedVersion: 2
-        x: 46
+        x: 64
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8c8bb25b9f88614380b8cccea39ad22
-      internalID: -5922295353713297283
+      spriteID: 3288e69accd344643b18644d76deb902
+      internalID: -7221997319569624204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus_needle_shot_32_3
+      name: Ratniss_walk_down_32_3
       rect:
         serializedVersion: 2
-        x: 69
+        x: 96
         y: 0
-        width: 23
-        height: 7
+        width: 32
+        height: 32
       alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,71 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 450c0d3d82ee9de48b669ab08c25b7db
-      internalID: -634586573239643120
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cactus_needle_shot_32_4
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 0
-        width: 23
-        height: 7
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e3ced623337e8540a20326714639747
-      internalID: -1903336379494250600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cactus_needle_shot_32_5
-      rect:
-        serializedVersion: 2
-        x: 115
-        y: 0
-        width: 23
-        height: 7
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26bc50c5243dab64296bda668de1cb08
-      internalID: 8858381474026312009
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cactus_needle_shot_32_6
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 0
-        width: 23
-        height: 7
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 27fe6d68605605f439f1d0596a2321b9
-      internalID: -6679749430759574261
+      spriteID: d704ca32baf560a4eb9f6136803c4029
+      internalID: -4623494602187986844
       vertices: []
       indices: 
       edges: []
@@ -265,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: cd058fe12b081da488fb54bee3337280
+    spriteID: fae08738e2b9e0a4a8bb3e93edbaf312
     internalID: 0
     vertices: []
     indices: 
