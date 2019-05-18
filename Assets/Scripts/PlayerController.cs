@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour {
 		// Angle of attack is just based on angle from mouse position to a centered vertical line.
 		var mouse = Camera.main.ScreenToViewportPoint(Input.mousePosition);
 		var aim = Vector3.SignedAngle(Vector3.up, mouse - new Vector3(0.5f, 0.5f), Vector3.forward);
-		aimIndicator.localRotation = Quaternion.Euler(-transform.localRotation.eulerAngles.x, 0f, aim);
+		aimIndicator.localRotation = Quaternion.Euler(-transform.localRotation.eulerAngles.x, 0f, aim + 45f);
 
 		// Arrows fire in the direction the indicator is showing. TODO: Fix indicator angle.
 		if (Input.GetButtonDown("Fire1")) {

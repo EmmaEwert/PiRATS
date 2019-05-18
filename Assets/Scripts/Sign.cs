@@ -25,15 +25,16 @@ public class Sign : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other) {
 		// Show indicator when player is in range.
-		player = other.GetComponentInParent<PlayerController>();
+		var player = other.GetComponentInParent<PlayerController>();
 		if (player) {
+			this.player = player;
 			actionIndicator.SetActive(true);
 		}
 	}
 
 	void OnTriggerExit2D(Collider2D other) {
 		// Hide indicator when player goes out of range.
-		if (player) {
+		if (player && other.GetComponentInParent<PlayerController>()) {
 			actionIndicator.SetActive(false);
 			player = null;
 		}
