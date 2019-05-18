@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="16" tileheight="16" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" source="../Ground.tsx"/>
+ <layer id="2" name="Tile Layer 1" width="48" height="48">
+  <data encoding="base64" compression="zlib">
+   eJyllc1qHDEQhDfBCXkAgwM+xVnHvm5YjC9+/9eKBlagDF31VY8PzYw0krq7fjSX0+n0MOKyPNd4WKKaq77Rmstubr/H1aDOqfa5el2uaqz6onwKFzpf4ZHudXyos9Lc7gzXS6ILpcMjnKRYdNalmCXYJTol7IhP9Z70Vp2V8E7vVV8Jfg6PFINEu9Rv4h3Fa4ebhEvnD6WrtMbku9OS0oXDt6ubCgOVw+11eifME16TGlxPxIFa29FVqpfkXfmbfNdZn+RJe0n66PRPHHfwSfhNsHQ6cD5we51fXO/ETzKmvjraULy5fp3HE3+6GjtnO/6dbmgt4eh026k1qUVx4b53cHf1kP5I96nGU98lXphn/RzxZ8TdiJcA6yRvUovKobykOP064mPE44iz4Y/mEj8kPSca2J5/b7i/L/V/b9ZJenZ+Up50+lvXbrjfj3ga8eMWV8Ol01KqL/J51e+q7xkT97PhlfBTWFXrFdbJ3fTrhvEaG9a/i/q7HnTeU7VWtTvu1L7XEc83LmbciZjfX3Y5SaNJj0c0WvHybcTb6X8/PO2eV5HriNdJo4oDNd78fC7OS+8Up+0jz0Sra+zrd3qnO9BpjNalPe7fXwv8SdOpfx2HHd84LGb9qefUnUW8VOe4+fmc/9v1PlnH2//guZjf4oupO6mLvEs9bLHdN+tdsn+vxnPuWmBNnlN9Ol0lOJAO1Xl0JzhNUY79WurXaVjV1fFSii15xd0brkfVV4cLwpd85HCku6rDFWmV7jKa69SccqV6S/VP2lJ51DrCuROJDikHeTDdn/Dq5qjHDp9HPObuCvruvEF1O/2R5rre/4xX6a7o+k716vyj8ru8zsd0lqrNYUi9Kn4T7ZAuqK7Ek1QfaUj1m+JWnZ/UTPiStshPdG6qK4eT44Hq6HiQ6u54L/V3os1E79RHx39uX0fPc/wP0+pCIg==
+  </data>
+ </layer>
+</map>
