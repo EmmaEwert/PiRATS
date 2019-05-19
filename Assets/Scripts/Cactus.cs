@@ -10,7 +10,18 @@ public class Cactus : MonoBehaviour {
 	bool cardinal;
 	bool inRange;
 
+	float hurt;
+	int health = 3;
+
 	public Animator animator => GetComponentInChildren<Animator>();
+
+	public void Hurt() {
+		hurt = 0.5f;
+		--health;
+		if (health == 0) {
+			Destroy(gameObject);
+		}
+	}
 
 	void Start() {
 		phase = delay;
@@ -18,6 +29,12 @@ public class Cactus : MonoBehaviour {
 
     void Update() {
 		var Δt = Time.deltaTime;
+
+		if (hurt > 0f) {
+			animator.SetInteger("State", 2);
+			hurt -= Δt;
+			return;
+		}
 
 		phase -= Δt;
 

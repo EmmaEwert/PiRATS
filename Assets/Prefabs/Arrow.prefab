@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 796850721606778130}
   - component: {fileID: 2712990112970015171}
-  - component: {fileID: 4341795873603049669}
+  - component: {fileID: 8267968905078152993}
   m_Layer: 9
   m_Name: Arrow
   m_TagString: Untagged
@@ -56,17 +56,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!247 &4341795873603049669
-ConstantForce2D:
+--- !u!114 &8267968905078152993
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 796850721606778131}
   m_Enabled: 1
-  m_Force: {x: 0, y: 0}
-  m_RelativeForce: {x: -2, y: 2}
-  m_Torque: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 14666fbc33b513e45b09eaf084c433c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smokePrefab: {fileID: 8766186391420636860, guid: 78d02907619e8b743accc51ad3cccd50,
+    type: 3}
 --- !u!1 &800434583896487198
 GameObject:
   m_ObjectHideFlags: 0
