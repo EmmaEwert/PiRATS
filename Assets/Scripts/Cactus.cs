@@ -25,6 +25,9 @@ public class Cactus : MonoBehaviour {
 			animator.SetInteger("State", 0);
 			if (inRange) {
 				transform.Translate(-(transform.position - FindObjectOfType<PlayerController>().transform.position).normalized * Time.deltaTime);
+				var position = transform.position;
+				position.z = 0f;
+				transform.position = position;
 			}
 		} else if (phase > -charge && inRange) { // Charging
 			animator.SetInteger("State", 1);

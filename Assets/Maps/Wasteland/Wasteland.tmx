@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="48" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="50">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="48" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="71">
  <tileset firstgid="1" source="../Ground.tsx"/>
  <tileset firstgid="65" source="../Objects.tsx"/>
  <layer id="3" name="2D" width="48" height="32">
   <data encoding="base64" compression="zlib">
    eJzVWF1PGzEQ3EJpRRJaVCoFcQgdrZCgFBqQrmoigvL/fxVe4ZEnV9t367uH5GEUkhB7dnf26+Yicuvw4PDHYblneHK4djhy+LIDfEr4z30MpnsYgznxrxx+7wAnxcrhMYLjhP8PHC4dXnaAu2LhsHZo/Kv69kz+17hyf3b4F/kuh5p8MpPxdTfx3BviXiX4W3yPuG7obMXU2wGbhtoz8ZwBxKKtb9VP39xded4Vnde+g+1pa7WEf0X3pfTz2eFnxLY29wt/RuPjderwywN/31PcpxLPub76xzngvo5wnFMMHhKxZ+6KV0lr7c7boP/3Xd77SklNWxBnjm9MP+Afi1HtueO7HPe2DTdirwvAVx9T+OLSx/cqwh85jHyEjcp9Q5+/Rn7f5b8+9nblQa4vQT8HEvJPdTQjv6+N3KG3Mfoh/JA6h+cH8Oe62Bi5407UjCEzVS0h/l38oR/OddQYa/wR86HaQQ+O5S3zR/6iXum9sVyx+CwXc4sfUKtTXNT35w7fJPSk0pgrd9TZWK8vOSunHfgf2kGNKok5/N7QWaXaAXfkX84P0H5OY13gelONyB11P6dj5a/7l84Plv1FOWNeQ5xxX1/uNZ0xk1CzUUe6uEM/iIGlXmtt+OvtBndrvZn4M44k1BnkTl8/cP2x9tdPEva2krxX/pgxOH6Wms3916J/5X9Id1t7XHue7aP1FP9zsc9ZOl/dS9lsgf0HOYp+U5Lz3Lus9Wdh/F1s/xnaJ/j5Twn/9v21hFrCuwv0wvMg9p4hMwbXHyt/7HiYV2fev7q3/JD32oSdaCPbva1kNknxR/5anyHynIkc1PdaUz5KmEl4Nx6T+1LC8xPcZYmB7lmnEnbfE9ne4cGdd+Wxny9x/x0yQ7TtYbvG9HdOP7HnE7uOD7I9P+wb/zdKliuT
+  </data>
+ </layer>
+ <layer id="4" name="3D" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAPBmGAAAAQ==
+  </data>
+ </layer>
+ <layer id="5" name="3D 2" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAPBmGAAAAQ==
   </data>
  </layer>
  <objectgroup id="2" name="Objects">
@@ -184,6 +194,114 @@
    </properties>
   </object>
   <object id="49" name="Player" type="Player" x="64" y="208" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="50" type="Object" gid="65" x="-8" y="368" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="51" type="Object" gid="65" x="12" y="360" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="52" type="Object" gid="65" x="36" y="356" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="53" type="Object" gid="65" x="56" y="348" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="54" type="Object" gid="65" x="80" y="340" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="55" type="Object" gid="65" x="108" y="328" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="56" type="Object" gid="65" x="100" y="356" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="57" type="Object" gid="65" x="76" y="368" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="59" type="Object" gid="65" x="48" y="380" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="62" type="Object" gid="65" x="28" y="376" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="63" type="Object" gid="65" x="8" y="392" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="64" type="Object" gid="65" x="136" y="312" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="65" type="Object" gid="65" x="156" y="320" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="66" type="Object" gid="65" x="168" y="300" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="67" type="Object" gid="65" x="196" y="292" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="68" type="Object" gid="65" x="224" y="280" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="69" type="Object" gid="65" x="244" y="264" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="70" type="Object" gid="65" x="132" y="336" width="32" height="32">
    <properties>
     <property name="Charge" type="float" value="1"/>
     <property name="Delay" type="float" value="3"/>

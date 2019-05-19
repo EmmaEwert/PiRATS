@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5432956935167729657}
   - component: {fileID: 8467657152222170600}
   - component: {fileID: 1986305166449280922}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,7 +68,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 163222366337126055, guid: 0df62989387118c45a54de68188f9eb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -99,22 +99,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4472346510049623712
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7125005599003611256}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00aa2e23c6a429c4ab7e96f92b8e8c6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  thornPrefab: {fileID: 7030634888287036253, guid: 6de2276c93561d240804c705e0f60212,
-    type: 3}
-  delay: 0
-  charge: 0
 --- !u!58 &902590445730067731
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -131,6 +115,22 @@ CircleCollider2D:
   m_Offset: {x: 1, y: 0}
   serializedVersion: 2
   m_Radius: 8
+--- !u!114 &4472346510049623712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125005599003611256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00aa2e23c6a429c4ab7e96f92b8e8c6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  thornPrefab: {fileID: 7030634888287036253, guid: 6de2276c93561d240804c705e0f60212,
+    type: 3}
+  delay: 0
+  charge: 0
 --- !u!1001 &1387494829051952422
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -142,6 +142,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cactus
+      objectReference: {fileID: 0}
+    - target: {fileID: 8187620975531175262, guid: bb126864d78ff054583bc400ecd25c2f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7587273533342407574, guid: bb126864d78ff054583bc400ecd25c2f,
         type: 3}

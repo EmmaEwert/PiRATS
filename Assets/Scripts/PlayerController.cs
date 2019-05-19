@@ -5,7 +5,15 @@ public class PlayerController : MonoBehaviour {
 	const float Speed = 5f;
 
 	public Transform aimIndicator;
+	public Transform healthIndicator;
 	public GameObject arrowPrefab;
+	public GameObject heartEmptyPrefab;
+	public GameObject heartHalfPrefab;
+	public GameObject heartFullPrefab;
+
+	float hurt;
+	int health = 6;
+	int maxHealth = 6;
 
 	Animator animator => transform.Find("Sprite").GetComponent<Animator>();
 #pragma warning disable 0108
@@ -13,8 +21,24 @@ public class PlayerController : MonoBehaviour {
 	Rigidbody2D	rigidbody => GetComponent<Rigidbody2D>();
 #pragma warning restore 0108
 
+	public void Hurt() {
+		hurt = 0.5f;
+		health -= 1;
+		UpdateHealthUI();
+	}
+
+	void Start() {
+		UpdateHealthUI();
+	}
+
     void Update() {
 		var Δt = Time.deltaTime;
+
+		if (hurt > 0f) {
+			animator.SetInteger("State", 4);
+			hurt -= Δt;
+			return;
+		}
 
 		// Movement input is rotated around the X-axis to limit the speed on the depth axis.
         var movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
@@ -47,4 +71,19 @@ public class PlayerController : MonoBehaviour {
 			Instantiate(arrowPrefab, transform.position + Vector3.right, Quaternion.Euler(0f, 0f, aim - 45f));
 		}
     }
+
+	void UpdateHealthUI() {
+		foreach (Transform child in healthIndicator) {
+			Destroy(child.gameObject);
+		}
+		for (var i = 0; i < maxHealth; i += 2) {
+			if (health >= i + 2) {
+				Instantiate(heartFullPrefab, Vector3.zero, Quaternion.identity, healthIndicator);
+			} else if (health >= i + 1) {
+				Instantiate(heartHalfPrefab, Vector3.zero, Quaternion.identity, healthIndicator);
+			} else {
+				Instantiate(heartEmptyPrefab, Vector3.zero, Quaternion.identity, healthIndicator);
+			}
+		}
+	}
 }
