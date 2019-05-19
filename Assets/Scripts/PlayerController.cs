@@ -1,10 +1,12 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour {
 	const float Speed = 5f;
 
 	public Transform aimIndicator;
+	public GameObject gameOverScreen;
 	public Transform healthIndicator;
 	public GameObject arrowPrefab;
 	public GameObject heartEmptyPrefab;
@@ -26,6 +28,13 @@ public class PlayerController : MonoBehaviour {
 		hurt = 0.5f;
 		health -= 1;
 		UpdateHealthUI();
+		if (health <= 0) {
+			gameOverScreen.SetActive(true);
+		}
+	}
+
+	public void Respawn() {
+		SceneManager.LoadScene("Village", LoadSceneMode.Single);
 	}
 
 	void Start() {
