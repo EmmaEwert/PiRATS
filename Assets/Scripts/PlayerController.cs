@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 	public GameObject heartFullPrefab;
 
 	float hurt;
-	int health = 4;
+	int health = 0;
 	int maxHealth = 4;
 	float arrowDelay;
 
@@ -31,6 +31,7 @@ public class PlayerController : MonoBehaviour {
 		if (health <= 0) {
 			gameOverScreen.SetActive(true);
 		}
+		PlayerPrefs.SetInt("Health", health);
 	}
 
 	public void Respawn() {
@@ -38,6 +39,13 @@ public class PlayerController : MonoBehaviour {
 	}
 
 	void Start() {
+		health = PlayerPrefs.GetInt("Health");
+		if (SceneManager.GetActiveScene().name == "Village" && health > 0) {
+			transform.position = new Vector3(34, 20);
+		} else if (health <= 0) {
+			PlayerPrefs.SetInt("Health", maxHealth);
+			health = maxHealth;
+		}
 		UpdateHealthUI();
 	}
 
@@ -97,6 +105,13 @@ public class PlayerController : MonoBehaviour {
 			} else {
 				Instantiate(heartEmptyPrefab, Vector3.zero, Quaternion.identity, healthIndicator);
 			}
+		}
+	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+		var warp = other.GetComponent<Warp>();
+		if (warp) {
+			SceneManager.LoadScene(warp.destination, LoadSceneMode.Single);
 		}
 	}
 }
