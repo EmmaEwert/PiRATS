@@ -12,8 +12,8 @@ public class PlayerController : MonoBehaviour {
 	public GameObject heartFullPrefab;
 
 	float hurt;
-	int health = 6;
-	int maxHealth = 6;
+	int health = 4;
+	int maxHealth = 4;
 	float arrowDelay;
 
 	Animator animator => transform.Find("Sprite").GetComponent<Animator>();
@@ -72,7 +72,7 @@ public class PlayerController : MonoBehaviour {
 		// Arrows fire in the direction the indicator is showing. TODO: Fix indicator angle.
 		if (Input.GetButton("Fire1") && arrowDelay <= 0f) {
 			Instantiate(arrowPrefab, transform.position + Vector3.right, Quaternion.Euler(0f, 0f, aim - 45f));
-			arrowDelay = 0.5f;
+			arrowDelay = 0.75f;
 		}
     }
 

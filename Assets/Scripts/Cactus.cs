@@ -72,7 +72,7 @@ public class Cactus : MonoBehaviour {
 
 	void OnTriggerExit2D(Collider2D other) {
 		if (other.GetComponentInParent<PlayerController>()) {
-			inRange = false;
+			//inRange = false;
 		}
 	}
 }

@@ -19,6 +19,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!247 &3432562568202172130
+ConstantForce2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7030634888287036253}
+  m_Enabled: 1
+  m_Force: {x: 0, y: 0}
+  m_RelativeForce: {x: -16, y: 16}
+  m_Torque: 0
 --- !u!114 &44218239190431415
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33,17 +44,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smokePrefab: {fileID: 8766186391420636860, guid: 78d02907619e8b743accc51ad3cccd50,
     type: 3}
---- !u!247 &3432562568202172130
-ConstantForce2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7030634888287036253}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0}
-  m_RelativeForce: {x: -8, y: 8}
-  m_Torque: 0
 --- !u!1001 &7682910806621789774
 PrefabInstance:
   m_ObjectHideFlags: 0
