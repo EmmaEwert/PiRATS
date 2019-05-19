@@ -115,6 +115,22 @@ MonoBehaviour:
     type: 3}
   delay: 0
   charge: 0
+--- !u!58 &902590445730067731
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125005599003611256}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1, y: 0}
+  serializedVersion: 2
+  m_Radius: 8
 --- !u!1001 &1387494829051952422
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -7,6 +7,8 @@ public class Cactus : MonoBehaviour {
 	[TiledProperty, HideInInspector] public float charge;
 
 	float phase;
+	bool cardinal;
+	bool inRange;
 
 	public Animator animator => GetComponentInChildren<Animator>();
 
@@ -21,17 +23,33 @@ public class Cactus : MonoBehaviour {
 
 		if (phase > 0) { // Wiggling
 			animator.SetInteger("State", 0);
-		} else if (phase > -charge) { // Charging
+		} else if (phase > -charge && inRange) { // Charging
 			animator.SetInteger("State", 1);
-		} else { // Shoot and wiggle
+		} else if (inRange) { // Shoot and wiggle
 			Shoot();
 			phase = delay;
+		} else {
+			animator.SetInteger("State", 0);
+			phase = 0f;
 		}
     }
 
 	void Shoot() {
-		for (var angle = 0; angle < 360; angle += 45) {
+		for (var angle = cardinal ? 45f : 0; angle < 360; angle += 90) {
 			var thorn = Instantiate(thornPrefab, transform.position + Vector3.right, Quaternion.Euler(0f, 0f, angle));
+		}
+		cardinal = !cardinal;
+	}
+
+	void OnTriggerEnter2D(Collider2D other) {
+		if (other.GetComponentInParent<PlayerController>()) {
+			inRange = true;
+		}
+	}
+
+	void OnTriggerExit2D(Collider2D other) {
+		if (other.GetComponentInParent<PlayerController>()) {
+			inRange = false;
 		}
 	}
 }
