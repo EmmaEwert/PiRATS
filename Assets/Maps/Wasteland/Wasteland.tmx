@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="48" height="32" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="50">
+ <tileset firstgid="1" source="../Ground.tsx"/>
+ <tileset firstgid="65" source="../Objects.tsx"/>
+ <layer id="3" name="2D" width="48" height="32">
+  <data encoding="base64" compression="zlib">
+   eJzVWF1PGzEQ3EJpRRJaVCoFcQgdrZCgFBqQrmoigvL/fxVe4ZEnV9t367uH5GEUkhB7dnf26+Yicuvw4PDHYblneHK4djhy+LIDfEr4z30MpnsYgznxrxx+7wAnxcrhMYLjhP8PHC4dXnaAu2LhsHZo/Kv69kz+17hyf3b4F/kuh5p8MpPxdTfx3BviXiX4W3yPuG7obMXU2wGbhtoz8ZwBxKKtb9VP39xded4Vnde+g+1pa7WEf0X3pfTz2eFnxLY29wt/RuPjderwywN/31PcpxLPub76xzngvo5wnFMMHhKxZ+6KV0lr7c7boP/3Xd77SklNWxBnjm9MP+Afi1HtueO7HPe2DTdirwvAVx9T+OLSx/cqwh85jHyEjcp9Q5+/Rn7f5b8+9nblQa4vQT8HEvJPdTQjv6+N3KG3Mfoh/JA6h+cH8Oe62Bi5407UjCEzVS0h/l38oR/OddQYa/wR86HaQQ+O5S3zR/6iXum9sVyx+CwXc4sfUKtTXNT35w7fJPSk0pgrd9TZWK8vOSunHfgf2kGNKok5/N7QWaXaAXfkX84P0H5OY13gelONyB11P6dj5a/7l84Plv1FOWNeQ5xxX1/uNZ0xk1CzUUe6uEM/iIGlXmtt+OvtBndrvZn4M44k1BnkTl8/cP2x9tdPEva2krxX/pgxOH6Wms3916J/5X9Id1t7XHue7aP1FP9zsc9ZOl/dS9lsgf0HOYp+U5Lz3Lus9Wdh/F1s/xnaJ/j5Twn/9v21hFrCuwv0wvMg9p4hMwbXHyt/7HiYV2fev7q3/JD32oSdaCPbva1kNknxR/5anyHynIkc1PdaUz5KmEl4Nx6T+1LC8xPcZYmB7lmnEnbfE9ne4cGdd+Wxny9x/x0yQ7TtYbvG9HdOP7HnE7uOD7I9P+wb/zdKliuT
+  </data>
+ </layer>
+ <objectgroup id="2" name="Objects">
+  <object id="1" name="Cactus" type="Cactus" x="272" y="192" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="2" name="Cactus" type="Cactus" x="208" y="240" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="3" name="Cactus" type="Cactus" x="320" y="48" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="4" name="Cactus" type="Cactus" x="144" y="48" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="5" name="Cactus" type="Cactus" x="432" y="96" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="6" name="Cactus" type="Cactus" x="464" y="128" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="7" name="Cactus" type="Cactus" x="464" y="176" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="8" name="Cactus" type="Cactus" x="432" y="224" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="9" name="Cactus" type="Cactus" x="192" y="400" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="10" name="Cactus" type="Cactus" x="208" y="336" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="11" name="Cactus" type="Cactus" x="304" y="384" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="12" name="Cactus" type="Cactus" x="368" y="352" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="13" name="Cactus" type="Cactus" x="416" y="288" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="14" name="Cactus" type="Cactus" x="272" y="480" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="16" name="Cactus" type="Cactus" x="432" y="480" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="17" name="Cactus" type="Cactus" x="528" y="448" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="18" name="Cactus" type="Cactus" x="608" y="400" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="19" name="Cactus" type="Cactus" x="720" y="192" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="20" name="Cactus" type="Cactus" x="592" y="192" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="21" name="Cactus" type="Cactus" x="592" y="48" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="24" type="Object" gid="65" x="472" y="32" width="32" height="32"/>
+  <object id="25" type="Object" gid="65" x="492" y="56" width="32" height="32"/>
+  <object id="26" type="Object" gid="65" x="468" y="56" width="32" height="32"/>
+  <object id="27" type="Object" gid="65" x="512" y="80" width="32" height="32"/>
+  <object id="28" type="Object" gid="65" x="492" y="84" width="32" height="32"/>
+  <object id="29" type="Object" gid="65" x="504" y="108" width="32" height="32"/>
+  <object id="30" type="Object" gid="65" x="524" y="132" width="32" height="32"/>
+  <object id="31" type="Object" gid="65" x="496" y="148" width="32" height="32"/>
+  <object id="32" type="Object" gid="65" x="496" y="124" width="32" height="32"/>
+  <object id="33" type="Object" gid="65" x="520" y="156" width="32" height="32"/>
+  <object id="34" type="Object" gid="65" x="500" y="176" width="32" height="32"/>
+  <object id="35" type="Object" gid="65" x="484" y="196" width="32" height="32"/>
+  <object id="36" type="Object" gid="65" x="504" y="204" width="32" height="32"/>
+  <object id="37" type="Object" gid="65" x="484" y="224" width="32" height="32"/>
+  <object id="38" type="Object" gid="65" x="504" y="228" width="32" height="32"/>
+  <object id="39" type="Object" gid="65" x="484" y="248" width="32" height="32"/>
+  <object id="40" type="Object" gid="65" x="480" y="272" width="32" height="32"/>
+  <object id="41" type="Object" gid="65" x="504" y="256" width="32" height="32"/>
+  <object id="42" name="Cactus" type="Cactus" x="592" y="144" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="43" name="Cactus" type="Cactus" x="720" y="96" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="44" name="Cactus" type="Cactus" x="592" y="96" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="45" name="Cactus" type="Cactus" x="720" y="144" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="46" name="Cactus" type="Cactus" x="720" y="48" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="47" type="Object" gid="65" x="464" y="292" width="32" height="32"/>
+  <object id="48" type="Object" gid="65" x="448" y="316" width="32" height="32">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+  <object id="49" name="Player" type="Player" x="64" y="208" width="16" height="16">
+   <properties>
+    <property name="Charge" type="float" value="1"/>
+    <property name="Delay" type="float" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
