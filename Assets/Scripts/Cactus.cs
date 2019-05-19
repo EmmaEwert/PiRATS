@@ -23,6 +23,9 @@ public class Cactus : MonoBehaviour {
 
 		if (phase > 0) { // Wiggling
 			animator.SetInteger("State", 0);
+			if (inRange) {
+				transform.Translate(-(transform.position - FindObjectOfType<PlayerController>().transform.position).normalized * Time.deltaTime);
+			}
 		} else if (phase > -charge && inRange) { // Charging
 			animator.SetInteger("State", 1);
 		} else if (inRange) { // Shoot and wiggle
