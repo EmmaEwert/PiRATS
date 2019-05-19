@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class Cactus : MonoBehaviour {
 	public GameObject thornPrefab;
-	[TiledProperty, HideInInspector] public float delay;
-	[TiledProperty, HideInInspector] public float charge;
+	[TiledProperty, HideInInspector, SerializeField] public float delay;
+	[TiledProperty, HideInInspector, SerializeField] public float charge;
 
 	float phase;
 	bool cardinal;

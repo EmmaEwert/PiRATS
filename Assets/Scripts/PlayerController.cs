@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
-[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerController : MonoBehaviour {
 	const float Speed = 5f;
 
@@ -30,6 +29,9 @@ public class PlayerController : MonoBehaviour {
 		UpdateHealthUI();
 		if (health <= 0) {
 			gameOverScreen.SetActive(true);
+			animator.SetInteger("State", 5);
+			enabled = false;
+			Destroy(rigidbody);
 		}
 		PlayerPrefs.SetInt("Health", health);
 	}
@@ -49,8 +51,8 @@ public class PlayerController : MonoBehaviour {
 		UpdateHealthUI();
 	}
 
-    void Update() {
-		var Δt = Time.deltaTime;
+    void FixedUpdate() {
+		var Δt = Time.fixedDeltaTime;
 
 		arrowDelay -= Δt;
 

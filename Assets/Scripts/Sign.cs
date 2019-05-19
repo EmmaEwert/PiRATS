@@ -6,7 +6,7 @@ public class Sign : MonoBehaviour {
 	public GameObject actionIndicator;
 	public GameObject canvas;
 	public TextMeshProUGUI textMesh;
-	[TiledProperty, HideInInspector] public string text;
+	[TiledProperty, HideInInspector, SerializeField] public string text;
 
 	PlayerController player;
 

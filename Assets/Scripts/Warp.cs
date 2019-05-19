@@ -2,5 +2,5 @@
 using UnityEngine;
 
 public class Warp : MonoBehaviour {
-	[TiledProperty] public string destination;
+	[TiledProperty, SerializeField] public string destination;
 }

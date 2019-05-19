@@ -10,10 +10,10 @@ public class Arrow : MonoBehaviour {
 	Rigidbody2D rigidbody => GetComponent<Rigidbody2D>();
 #pragma warning restore 0108
 
-    void Update() {
+    void FixedUpdate() {
 		rigidbody.MovePosition(transform.position + (transform.right * -7.5f + transform.up * 7.5f) * Time.deltaTime);
 		var position = transform.Find("Sprite").position;
-		position.z += age * Time.deltaTime ;
+		position.z += age * Time.fixedDeltaTime ;
 		if (position.z >= 0f) {
 			position.z = 0f;
 			Destroy(this);
