@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="165">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="172">
  <tileset firstgid="1" source="../Ground.tsx"/>
  <tileset firstgid="65" source="Village_assets_tiles.tsx"/>
  <tileset firstgid="545" source="../Objects.tsx"/>
@@ -19,121 +19,157 @@
   </data>
  </layer>
  <objectgroup id="3" name="Objects">
-  <object id="1" type="Object" gid="545" x="352" y="192" width="32" height="32"/>
-  <object id="6" type="Object" gid="545" x="368" y="172" width="32" height="32"/>
-  <object id="7" type="Object" gid="545" x="416" y="208" width="32" height="32"/>
-  <object id="8" type="Object" gid="545" x="480" y="224" width="32" height="32"/>
-  <object id="9" type="Object" gid="545" x="512" y="224" width="32" height="32"/>
-  <object id="10" type="Object" gid="545" x="560" y="224" width="32" height="32"/>
-  <object id="11" type="Object" gid="545" x="576" y="256" width="32" height="32"/>
-  <object id="12" type="Object" gid="545" x="592" y="288" width="32" height="32"/>
-  <object id="13" type="Object" gid="545" x="576" y="320" width="32" height="32"/>
-  <object id="14" type="Object" gid="545" x="608" y="336" width="32" height="32"/>
-  <object id="15" type="Object" gid="545" x="608" y="368" width="32" height="32"/>
-  <object id="16" type="Object" gid="545" x="592" y="400" width="32" height="32"/>
-  <object id="17" type="Object" gid="546" x="336" y="160" width="32" height="32"/>
-  <object id="18" type="Object" gid="546" x="448" y="208" width="32" height="32"/>
-  <object id="19" type="Object" gid="546" x="496" y="192" width="32" height="32"/>
-  <object id="20" type="Object" gid="546" x="544" y="240" width="32" height="32"/>
-  <object id="21" type="Object" gid="546" x="576" y="352" width="32" height="32"/>
-  <object id="22" type="Object" gid="547" x="336" y="260" width="96" height="96"/>
-  <object id="23" type="Object" gid="548" x="224" y="544" width="160" height="96"/>
-  <object id="24" type="Object" gid="549" x="336" y="448" width="32" height="64"/>
-  <object id="25" type="Object" gid="549" x="256" y="368" width="32" height="64"/>
-  <object id="26" type="Object" gid="549" x="480" y="400" width="32" height="64"/>
-  <object id="27" type="Object" gid="549" x="544" y="400" width="32" height="64"/>
-  <object id="28" type="Object" gid="549" x="384" y="608" width="32" height="64"/>
-  <object id="29" type="Object" gid="550" x="352" y="416" width="128" height="64"/>
+  <object id="1" type="Collision Object" gid="545" x="352" y="192" width="32" height="32"/>
+  <object id="6" type="Collision Object" gid="545" x="368" y="172" width="32" height="32"/>
+  <object id="7" type="Collision Object" gid="545" x="416" y="208" width="32" height="32"/>
+  <object id="8" type="Collision Object" gid="545" x="480" y="224" width="32" height="32"/>
+  <object id="9" type="Collision Object" gid="545" x="512" y="224" width="32" height="32"/>
+  <object id="10" type="Collision Object" gid="545" x="560" y="224" width="32" height="32"/>
+  <object id="11" type="Collision Object" gid="545" x="576" y="256" width="32" height="32"/>
+  <object id="12" type="Collision Object" gid="545" x="592" y="288" width="32" height="32"/>
+  <object id="13" type="Collision Object" gid="545" x="576" y="320" width="32" height="32"/>
+  <object id="14" type="Collision Object" gid="545" x="608" y="336" width="32" height="32"/>
+  <object id="15" type="Collision Object" gid="545" x="608" y="368" width="32" height="32"/>
+  <object id="16" type="Collision Object" gid="545" x="592" y="400" width="32" height="32"/>
+  <object id="17" type="Collision Object" gid="546" x="336" y="160" width="32" height="32"/>
+  <object id="18" type="Collision Object" gid="546" x="448" y="208" width="32" height="32"/>
+  <object id="19" type="Collision Object" gid="546" x="496" y="192" width="32" height="32"/>
+  <object id="20" type="Collision Object" gid="546" x="544" y="240" width="32" height="32"/>
+  <object id="21" type="Collision Object" gid="546" x="576" y="352" width="32" height="32"/>
+  <object id="22" type="Collision Object" gid="547" x="336" y="260" width="96" height="96">
+   <properties>
+    <property name="Height" type="float" value="4"/>
+    <property name="Width" type="float" value="6"/>
+   </properties>
+  </object>
+  <object id="23" type="Collision Object" gid="548" x="224" y="544" width="160" height="96">
+   <properties>
+    <property name="Height" type="float" value="4"/>
+    <property name="Width" type="float" value="8"/>
+   </properties>
+  </object>
+  <object id="24" type="Collision Object" gid="549" x="336" y="448" width="32" height="64"/>
+  <object id="25" type="Collision Object" gid="549" x="256" y="368" width="32" height="64"/>
+  <object id="26" type="Collision Object" gid="549" x="480" y="400" width="32" height="64"/>
+  <object id="27" type="Collision Object" gid="549" x="544" y="400" width="32" height="64"/>
+  <object id="28" type="Collision Object" gid="549" x="384" y="608" width="32" height="64"/>
+  <object id="29" type="Collision Object" gid="550" x="352" y="416" width="128" height="64">
+   <properties>
+    <property name="Height" type="float" value="4"/>
+    <property name="Width" type="float" value="8"/>
+   </properties>
+  </object>
   <object id="30" type="Object" gid="551" x="416" y="420" width="32" height="48"/>
   <object id="31" type="Object" gid="552" x="288" y="548" width="32" height="48"/>
-  <object id="32" type="Object" gid="553" x="528" y="560" width="32" height="32"/>
+  <object id="32" type="Collision Object" gid="553" x="528" y="560" width="32" height="32"/>
   <object id="34" name="Player" type="Player" x="368" y="260" width="16" height="16"/>
-  <object id="35" type="Object" gid="545" x="388" y="180" width="32" height="32"/>
-  <object id="36" type="Object" gid="545" x="408" y="192" width="32" height="32"/>
-  <object id="37" type="Object" gid="545" x="432" y="200" width="32" height="32"/>
-  <object id="38" type="Object" gid="545" x="504" y="212" width="32" height="32"/>
-  <object id="39" type="Object" gid="545" x="560" y="252" width="32" height="32"/>
-  <object id="40" type="Object" gid="545" x="596" y="312" width="32" height="32"/>
-  <object id="41" type="Object" gid="545" x="588" y="344" width="32" height="32"/>
-  <object id="42" type="Object" gid="545" x="600" y="384" width="32" height="32"/>
-  <object id="44" type="Object" gid="546" x="576" y="288" width="32" height="32"/>
-  <object id="45" type="Object" gid="546" x="584" y="264" width="32" height="32"/>
-  <object id="46" type="Object" gid="546" x="532" y="228" width="32" height="32"/>
-  <object id="47" type="Object" gid="546" x="496" y="228" width="32" height="32"/>
-  <object id="48" type="Object" gid="546" x="464" y="200" width="32" height="32"/>
-  <object id="49" type="Object" gid="546" x="456" y="220" width="32" height="32"/>
-  <object id="50" type="Object" gid="546" x="344" y="168" width="32" height="32"/>
-  <object id="51" type="Object" gid="546" x="332" y="188" width="32" height="32"/>
-  <object id="54" type="Object" gid="555" x="480" y="288" width="32" height="64"/>
-  <object id="55" type="Object" gid="555" x="512" y="288" width="32" height="64"/>
-  <object id="56" type="Object" gid="555" x="544" y="304" width="32" height="64"/>
-  <object id="57" type="Object" gid="555" x="304" y="224" width="32" height="64"/>
-  <object id="58" type="Object" gid="555" x="112" y="384" width="32" height="64"/>
-  <object id="59" type="Object" gid="555" x="240" y="224" width="32" height="64"/>
-  <object id="60" type="Object" gid="555" x="208" y="320" width="32" height="64"/>
-  <object id="61" type="Object" gid="555" x="160" y="304" width="32" height="64"/>
-  <object id="62" type="Object" gid="555" x="192" y="256" width="32" height="64"/>
-  <object id="63" type="Object" gid="555" x="128" y="352" width="32" height="64"/>
-  <object id="64" type="Object" gid="555" x="268" y="204" width="32" height="64"/>
-  <object id="65" type="Object" gid="555" x="96" y="432" width="32" height="64"/>
-  <object id="66" type="Object" gid="555" x="96" y="480" width="32" height="64"/>
-  <object id="67" type="Object" gid="555" x="128" y="528" width="32" height="64"/>
-  <object id="69" type="Object" gid="555" x="112" y="512" width="32" height="64"/>
-  <object id="70" type="Object" gid="555" x="160" y="592" width="32" height="64"/>
-  <object id="74" type="Object" gid="555" x="224" y="656" width="32" height="64"/>
-  <object id="76" type="Object" gid="555" x="256" y="688" width="32" height="64"/>
-  <object id="78" type="Object" gid="555" x="320" y="720" width="32" height="64"/>
-  <object id="81" type="Object" gid="555" x="448" y="688" width="32" height="64"/>
-  <object id="82" type="Object" gid="555" x="480" y="720" width="32" height="64"/>
-  <object id="83" type="Object" gid="555" x="384" y="720" width="32" height="64"/>
-  <object id="88" type="Object" gid="555" x="304" y="704" width="32" height="64"/>
-  <object id="89" type="Object" gid="555" x="240" y="672" width="32" height="64"/>
-  <object id="90" type="Object" gid="555" x="208" y="624" width="32" height="64"/>
-  <object id="92" type="Object" gid="555" x="144" y="576" width="32" height="64"/>
-  <object id="93" type="Object" gid="555" x="176" y="608" width="32" height="64"/>
-  <object id="94" type="Object" gid="555" x="128" y="560" width="32" height="64"/>
-  <object id="97" type="Object" gid="556" x="512" y="688" width="32" height="64"/>
-  <object id="98" type="Object" gid="556" x="576" y="672" width="32" height="64"/>
-  <object id="99" type="Object" gid="556" x="560" y="608" width="32" height="64"/>
-  <object id="100" type="Object" gid="556" x="576" y="576" width="32" height="64"/>
-  <object id="104" type="Object" gid="556" x="560" y="704" width="32" height="64"/>
-  <object id="105" type="Object" gid="556" x="528" y="672" width="32" height="64"/>
-  <object id="106" type="Object" gid="557" x="240" y="640" width="32" height="32"/>
-  <object id="107" type="Object" gid="557" x="272" y="640" width="32" height="32"/>
-  <object id="108" type="Object" gid="557" x="336" y="640" width="32" height="32"/>
-  <object id="109" type="Object" gid="557" x="400" y="640" width="32" height="32"/>
-  <object id="110" type="Object" gid="557" x="432" y="640" width="32" height="32"/>
-  <object id="111" type="Object" gid="557" x="464" y="640" width="32" height="32"/>
-  <object id="112" type="Object" gid="558" x="304" y="640" width="32" height="32"/>
-  <object id="113" type="Object" gid="558" x="368" y="640" width="32" height="32"/>
-  <object id="114" type="Object" gid="558" x="496" y="640" width="32" height="32"/>
-  <object id="115" type="Object" gid="555" x="400" y="672" width="32" height="64"/>
-  <object id="116" type="Object" gid="555" x="352" y="688" width="32" height="64"/>
-  <object id="117" type="Object" gid="559" x="528" y="640" width="32" height="32"/>
-  <object id="118" type="Object" gid="560" x="560" y="640" width="32" height="32"/>
-  <object id="119" type="Object" gid="561" x="416" y="288" width="32" height="32"/>
-  <object id="120" type="Object" gid="561" x="288" y="272" width="32" height="32"/>
-  <object id="121" type="Object" gid="562" x="496" y="336" width="16" height="16"/>
-  <object id="122" type="Object" gid="562" x="512" y="336" width="16" height="16"/>
-  <object id="123" type="Object" gid="562" x="528" y="336" width="16" height="16"/>
-  <object id="126" type="Object" gid="563" x="496" y="320" width="32" height="32"/>
-  <object id="127" type="Object" gid="564" x="416" y="320" width="32" height="32"/>
-  <object id="128" type="Object" gid="555" x="176" y="576" width="32" height="64"/>
-  <object id="129" type="Object" gid="565" x="368" y="336" width="32" height="32"/>
-  <object id="132" type="Object" gid="566" x="448" y="384" width="32" height="32"/>
-  <object id="142" type="Object" gid="571" x="240" y="256" width="32" height="32"/>
-  <object id="143" type="Object" gid="572" x="272" y="256" width="32" height="32"/>
-  <object id="144" type="Object" gid="569" x="304" y="256" width="32" height="32"/>
-  <object id="145" type="Object" gid="545" x="240" y="272" width="32" height="32"/>
-  <object id="146" type="Object" gid="546" x="240" y="288" width="32" height="32"/>
-  <object id="147" type="Object" gid="555" x="224" y="304" width="32" height="64"/>
-  <object id="148" type="Object" gid="573" x="152" y="340" width="96" height="64"/>
-  <object id="149" type="Object" gid="574" x="576" y="432" width="32" height="32"/>
-  <object id="150" type="Object" gid="575" x="640" y="416" width="32" height="32"/>
-  <object id="151" type="Object" gid="575" x="624" y="480" width="32" height="32"/>
-  <object id="152" type="Object" gid="575" x="656" y="560" width="32" height="32"/>
-  <object id="153" type="Object" gid="554" x="112" y="448" width="96" height="48"/>
-  <object id="154" type="Object" gid="554" x="432" y="544" width="96" height="48"/>
+  <object id="35" type="Collision Object" gid="545" x="388" y="180" width="32" height="32"/>
+  <object id="36" type="Collision Object" gid="545" x="408" y="192" width="32" height="32"/>
+  <object id="37" type="Collision Object" gid="545" x="432" y="200" width="32" height="32"/>
+  <object id="38" type="Collision Object" gid="545" x="504" y="212" width="32" height="32"/>
+  <object id="39" type="Collision Object" gid="545" x="560" y="252" width="32" height="32"/>
+  <object id="40" type="Collision Object" gid="545" x="596" y="312" width="32" height="32"/>
+  <object id="41" type="Collision Object" gid="545" x="588" y="344" width="32" height="32"/>
+  <object id="42" type="Collision Object" gid="545" x="600" y="384" width="32" height="32"/>
+  <object id="44" type="Collision Object" gid="546" x="576" y="288" width="32" height="32"/>
+  <object id="45" type="Collision Object" gid="546" x="584" y="264" width="32" height="32"/>
+  <object id="46" type="Collision Object" gid="546" x="532" y="228" width="32" height="32"/>
+  <object id="47" type="Collision Object" gid="546" x="496" y="228" width="32" height="32"/>
+  <object id="48" type="Collision Object" gid="546" x="464" y="200" width="32" height="32"/>
+  <object id="49" type="Collision Object" gid="546" x="456" y="220" width="32" height="32"/>
+  <object id="50" type="Collision Object" gid="546" x="344" y="168" width="32" height="32"/>
+  <object id="51" type="Collision Object" gid="546" x="332" y="188" width="32" height="32"/>
+  <object id="54" type="Collision Object" gid="555" x="480" y="288" width="32" height="64"/>
+  <object id="55" type="Collision Object" gid="555" x="512" y="288" width="32" height="64"/>
+  <object id="56" type="Collision Object" gid="555" x="544" y="304" width="32" height="64"/>
+  <object id="57" type="Collision Object" gid="555" x="304" y="224" width="32" height="64"/>
+  <object id="58" type="Collision Object" gid="555" x="112" y="384" width="32" height="64"/>
+  <object id="59" type="Collision Object" gid="555" x="240" y="224" width="32" height="64"/>
+  <object id="60" type="Collision Object" gid="555" x="208" y="320" width="32" height="64"/>
+  <object id="61" type="Collision Object" gid="555" x="160" y="304" width="32" height="64"/>
+  <object id="62" type="Collision Object" gid="555" x="216" y="256" width="32" height="64"/>
+  <object id="63" type="Collision Object" gid="555" x="128" y="352" width="32" height="64"/>
+  <object id="64" type="Collision Object" gid="555" x="268" y="204" width="32" height="64"/>
+  <object id="65" type="Collision Object" gid="555" x="96" y="432" width="32" height="64"/>
+  <object id="66" type="Collision Object" gid="555" x="96" y="480" width="32" height="64"/>
+  <object id="67" type="Collision Object" gid="555" x="128" y="528" width="32" height="64"/>
+  <object id="69" type="Collision Object" gid="555" x="112" y="512" width="32" height="64"/>
+  <object id="70" type="Collision Object" gid="555" x="160" y="592" width="32" height="64"/>
+  <object id="74" type="Collision Object" gid="555" x="224" y="656" width="32" height="64"/>
+  <object id="76" type="Collision Object" gid="555" x="256" y="688" width="32" height="64"/>
+  <object id="78" type="Collision Object" gid="555" x="320" y="720" width="32" height="64"/>
+  <object id="81" type="Collision Object" gid="555" x="448" y="688" width="32" height="64"/>
+  <object id="82" type="Collision Object" gid="555" x="480" y="720" width="32" height="64"/>
+  <object id="83" type="Collision Object" gid="555" x="384" y="720" width="32" height="64"/>
+  <object id="88" type="Collision Object" gid="555" x="304" y="704" width="32" height="64"/>
+  <object id="89" type="Collision Object" gid="555" x="240" y="672" width="32" height="64"/>
+  <object id="90" type="Collision Object" gid="555" x="208" y="624" width="32" height="64"/>
+  <object id="92" type="Collision Object" gid="555" x="144" y="576" width="32" height="64"/>
+  <object id="93" type="Collision Object" gid="555" x="176" y="608" width="32" height="64"/>
+  <object id="94" type="Collision Object" gid="555" x="128" y="560" width="32" height="64"/>
+  <object id="97" type="Collision Object" gid="556" x="512" y="688" width="32" height="64"/>
+  <object id="98" type="Collision Object" gid="556" x="576" y="672" width="32" height="64"/>
+  <object id="99" type="Collision Object" gid="556" x="560" y="608" width="32" height="64"/>
+  <object id="100" type="Collision Object" gid="556" x="576" y="576" width="32" height="64"/>
+  <object id="104" type="Collision Object" gid="556" x="560" y="704" width="32" height="64"/>
+  <object id="105" type="Collision Object" gid="556" x="528" y="672" width="32" height="64"/>
+  <object id="106" type="Collision Object" gid="557" x="240" y="640" width="32" height="32"/>
+  <object id="107" type="Collision Object" gid="557" x="272" y="640" width="32" height="32"/>
+  <object id="108" type="Collision Object" gid="557" x="336" y="640" width="32" height="32"/>
+  <object id="109" type="Collision Object" gid="557" x="400" y="640" width="32" height="32"/>
+  <object id="110" type="Collision Object" gid="557" x="432" y="640" width="32" height="32"/>
+  <object id="111" type="Collision Object" gid="557" x="464" y="640" width="32" height="32"/>
+  <object id="112" type="Collision Object" gid="558" x="304" y="640" width="32" height="32"/>
+  <object id="113" type="Collision Object" gid="558" x="368" y="640" width="32" height="32"/>
+  <object id="114" type="Collision Object" gid="558" x="496" y="640" width="32" height="32"/>
+  <object id="115" type="Collision Object" gid="555" x="400" y="672" width="32" height="64"/>
+  <object id="116" type="Collision Object" gid="555" x="352" y="688" width="32" height="64"/>
+  <object id="117" type="Collision Object" gid="559" x="528" y="640" width="32" height="32"/>
+  <object id="118" type="Collision Object" gid="560" x="560" y="640" width="32" height="32"/>
+  <object id="119" type="Collision Object" gid="561" x="416" y="288" width="32" height="32"/>
+  <object id="120" type="Collision Object" gid="561" x="288" y="272" width="32" height="32"/>
+  <object id="121" type="Collision Object" gid="562" x="496" y="336" width="16" height="16">
+   <properties>
+    <property name="Height" type="float" value="0.5"/>
+    <property name="Width" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="122" type="Collision Object" gid="562" x="512" y="336" width="16" height="16">
+   <properties>
+    <property name="Height" type="float" value="0.5"/>
+    <property name="Width" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="123" type="Collision Object" gid="562" x="528" y="336" width="16" height="16">
+   <properties>
+    <property name="Height" type="float" value="0.5"/>
+    <property name="Width" type="float" value="1"/>
+   </properties>
+  </object>
+  <object id="126" type="Collision Object" gid="563" x="496" y="320" width="32" height="32"/>
+  <object id="127" type="Collision Object" gid="564" x="416" y="320" width="32" height="32"/>
+  <object id="128" type="Collision Object" gid="555" x="176" y="576" width="32" height="64"/>
+  <object id="129" type="Collision Object" gid="565" x="368" y="336" width="32" height="32"/>
+  <object id="142" type="Collision Object" gid="571" x="240" y="256" width="32" height="32"/>
+  <object id="143" type="Collision Object" gid="572" x="272" y="256" width="32" height="32"/>
+  <object id="144" type="Collision Object" gid="569" x="304" y="256" width="32" height="32"/>
+  <object id="147" type="Collision Object" gid="555" x="224" y="304" width="32" height="64"/>
+  <object id="148" type="Collision Object" gid="573" x="152" y="340" width="96" height="64">
+   <properties>
+    <property name="Height" type="float" value="4"/>
+    <property name="Width" type="float" value="6"/>
+   </properties>
+  </object>
+  <object id="149" type="Collision Object" gid="574" x="576" y="432" width="32" height="32"/>
+  <object id="150" type="Collision Object" gid="575" x="640" y="416" width="32" height="32"/>
+  <object id="151" type="Collision Object" gid="575" x="632" y="480" width="32" height="32"/>
+  <object id="152" type="Collision Object" gid="575" x="656" y="560" width="32" height="32"/>
+  <object id="153" type="Collision Object" gid="554" x="112" y="448" width="96" height="48">
+   <properties>
+    <property name="Height" type="float" value="2"/>
+    <property name="Width" type="float" value="6"/>
+   </properties>
+  </object>
   <object id="156" type="Warp" x="624" y="400" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
@@ -174,6 +210,17 @@
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="164" type="Object" gid="556" x="592" y="548" width="32" height="64"/>
+  <object id="164" type="Collision Object" gid="556" x="592" y="548" width="32" height="64"/>
+  <object id="165" type="Collision Object" gid="555" x="188" y="280" width="32" height="64"/>
+  <object id="166" type="Collision Object" gid="554" x="432" y="544" width="96" height="48">
+   <properties>
+    <property name="Height" type="float" value="2"/>
+    <property name="Width" type="float" value="6"/>
+   </properties>
+  </object>
+  <object id="168" type="Collision Object" gid="555" x="124" y="368" width="32" height="64"/>
+  <object id="169" type="Collision Object" gid="555" x="104" y="408" width="32" height="64"/>
+  <object id="170" type="Collision Object" gid="555" x="104" y="468" width="32" height="64"/>
+  <object id="171" type="Collision Object" gid="555" x="104" y="500" width="32" height="64"/>
  </objectgroup>
 </map>
