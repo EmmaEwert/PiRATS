@@ -1,25 +1,40 @@
 fileFormatVersion: 2
-guid: 2c087d4920a3a7d4f823b3c3c0c2470f
+guid: a560c88df9e1a3c46bf4201c81bbb076
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5134695518830238771
-    second: CaptainRatSparrow_idle_100x100-sheet_0
+      213: 3609573589794297802
+    second: CaptainRatSparrow_throw_100x100-sheet_0
   - first:
-      213: 6261402707829160597
-    second: CaptainRatSparrow_idle_100x100-sheet_1
+      213: 4718124245503883553
+    second: CaptainRatSparrow_throw_100x100-sheet_1
   - first:
-      213: -4215855744987116316
-    second: CaptainRatSparrow_idle_100x100-sheet_2
+      213: -6357639979484106981
+    second: CaptainRatSparrow_throw_100x100-sheet_2
   - first:
-      213: 6817973967216643961
-    second: CaptainRatSparrow_idle_100x100-sheet_3
+      213: -8165839300240649681
+    second: CaptainRatSparrow_throw_100x100-sheet_3
   - first:
-      213: 5511350567467202163
-    second: CaptainRatSparrow_idle_100x100-sheet_4
+      213: 7917718031291129162
+    second: CaptainRatSparrow_throw_100x100-sheet_4
   - first:
-      213: 1464825614851279261
-    second: CaptainRatSparrow_idle_100x100-sheet_5
+      213: 5411390828995909980
+    second: CaptainRatSparrow_throw_100x100-sheet_5
+  - first:
+      213: 3645782286315966321
+    second: CaptainRatSparrow_throw_100x100-sheet_6
+  - first:
+      213: 1172246617487163458
+    second: CaptainRatSparrow_throw_100x100-sheet_7
+  - first:
+      213: 1892632100573631525
+    second: CaptainRatSparrow_throw_100x100-sheet_8
+  - first:
+      213: -5877291671019739428
+    second: CaptainRatSparrow_throw_100x100-sheet_9
+  - first:
+      213: -7911306872403092980
+    second: CaptainRatSparrow_throw_100x100-sheet_10
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -113,7 +128,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_0
+      name: CaptainRatSparrow_throw_100x100-sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -127,14 +142,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98696f43257fdf645a0c37fd67d17d23
-      internalID: 5134695518830238771
+      spriteID: 021aad6969f28534888d79f8a7a4c2a1
+      internalID: 3609573589794297802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_1
+      name: CaptainRatSparrow_throw_100x100-sheet_1
       rect:
         serializedVersion: 2
         x: 100
@@ -148,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9d2069eebce13d409411c11305ff76c
-      internalID: 6261402707829160597
+      spriteID: 6a1dc90fca50e264a9974c03242c85d6
+      internalID: 4718124245503883553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_2
+      name: CaptainRatSparrow_throw_100x100-sheet_2
       rect:
         serializedVersion: 2
         x: 200
@@ -169,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d155a25c512ab8b42a2296d4cd385754
-      internalID: -4215855744987116316
+      spriteID: 6af11e6a7ad143140b9b783489e35cff
+      internalID: -6357639979484106981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_3
+      name: CaptainRatSparrow_throw_100x100-sheet_3
       rect:
         serializedVersion: 2
         x: 300
@@ -190,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdd21900359bca74385a65112360b60a
-      internalID: 6817973967216643961
+      spriteID: 75dc4be9deb9ce3409bc5616709aa043
+      internalID: -8165839300240649681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_4
+      name: CaptainRatSparrow_throw_100x100-sheet_4
       rect:
         serializedVersion: 2
         x: 400
@@ -211,14 +226,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ebf20d73350e04468978a5dd65be636
-      internalID: 5511350567467202163
+      spriteID: e4d1026924fd80f4695ebe07ebe9bac1
+      internalID: 7917718031291129162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_5
+      name: CaptainRatSparrow_throw_100x100-sheet_5
       rect:
         serializedVersion: 2
         x: 500
@@ -232,8 +247,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b6b933ec253d554a92d8cd91b778ea1
-      internalID: 1464825614851279261
+      spriteID: 916a619c3a234664fa8709b8cfc2cecb
+      internalID: 5411390828995909980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainRatSparrow_throw_100x100-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3677057bae3ea994fb3145eb3595f060
+      internalID: 3645782286315966321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainRatSparrow_throw_100x100-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 0
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c4e6c1e1ea5eaa41ba852252dd4ef77
+      internalID: 1172246617487163458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainRatSparrow_throw_100x100-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23008b08dc1a24d4ebe7df76e1b3b7e2
+      internalID: 1892632100573631525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainRatSparrow_throw_100x100-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84ef08cd254b46042bb85918b483e159
+      internalID: -5877291671019739428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CaptainRatSparrow_throw_100x100-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 0
+        width: 100
+        height: 100
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770031269502b1f47bd2dc011099aa65
+      internalID: -7911306872403092980
       vertices: []
       indices: 
       edges: []

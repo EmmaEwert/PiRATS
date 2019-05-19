@@ -1,25 +1,25 @@
 fileFormatVersion: 2
-guid: 2c087d4920a3a7d4f823b3c3c0c2470f
+guid: b888f8308c1db8a478f506c82d3f4a66
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5134695518830238771
-    second: CaptainRatSparrow_idle_100x100-sheet_0
+      213: 3883723673326010210
+    second: CaptainRatSparrow_turn_idle_100x100-sheet_0
   - first:
-      213: 6261402707829160597
-    second: CaptainRatSparrow_idle_100x100-sheet_1
+      213: -980543885034624052
+    second: CaptainRatSparrow_turn_idle_100x100-sheet_1
   - first:
-      213: -4215855744987116316
-    second: CaptainRatSparrow_idle_100x100-sheet_2
+      213: 5381223748501328902
+    second: CaptainRatSparrow_turn_idle_100x100-sheet_2
   - first:
-      213: 6817973967216643961
-    second: CaptainRatSparrow_idle_100x100-sheet_3
+      213: -7199825420453369653
+    second: CaptainRatSparrow_turn_idle_100x100-sheet_3
   - first:
-      213: 5511350567467202163
-    second: CaptainRatSparrow_idle_100x100-sheet_4
+      213: -9199288256150643888
+    second: CaptainRatSparrow_turn_idle_100x100-sheet_4
   - first:
-      213: 1464825614851279261
-    second: CaptainRatSparrow_idle_100x100-sheet_5
+      213: -2316801572761155167
+    second: CaptainRatSparrow_turn_idle_100x100-sheet_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -113,7 +113,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_0
+      name: CaptainRatSparrow_turn_idle_100x100-sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -127,14 +127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98696f43257fdf645a0c37fd67d17d23
-      internalID: 5134695518830238771
+      spriteID: 7409d28d9f3e2a346a23536b09d2e07e
+      internalID: 3883723673326010210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_1
+      name: CaptainRatSparrow_turn_idle_100x100-sheet_1
       rect:
         serializedVersion: 2
         x: 100
@@ -148,14 +148,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9d2069eebce13d409411c11305ff76c
-      internalID: 6261402707829160597
+      spriteID: 9c8fefb7f100f5e48a96669ee7dd5ac3
+      internalID: -980543885034624052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_2
+      name: CaptainRatSparrow_turn_idle_100x100-sheet_2
       rect:
         serializedVersion: 2
         x: 200
@@ -169,14 +169,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d155a25c512ab8b42a2296d4cd385754
-      internalID: -4215855744987116316
+      spriteID: 46163ca3eee335542b3070ad7f312c3b
+      internalID: 5381223748501328902
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_3
+      name: CaptainRatSparrow_turn_idle_100x100-sheet_3
       rect:
         serializedVersion: 2
         x: 300
@@ -190,14 +190,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdd21900359bca74385a65112360b60a
-      internalID: 6817973967216643961
+      spriteID: 9578ee65dc2c47747801e969087c9cdd
+      internalID: -7199825420453369653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_4
+      name: CaptainRatSparrow_turn_idle_100x100-sheet_4
       rect:
         serializedVersion: 2
         x: 400
@@ -211,14 +211,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ebf20d73350e04468978a5dd65be636
-      internalID: 5511350567467202163
+      spriteID: 0a220fa6c789faf478b8898be32f6b9f
+      internalID: -9199288256150643888
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: CaptainRatSparrow_idle_100x100-sheet_5
+      name: CaptainRatSparrow_turn_idle_100x100-sheet_5
       rect:
         serializedVersion: 2
         x: 500
@@ -232,8 +232,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b6b933ec253d554a92d8cd91b778ea1
-      internalID: 1464825614851279261
+      spriteID: c93df8ad962dc0446b01b9444fc567d9
+      internalID: -2316801572761155167
       vertices: []
       indices: 
       edges: []

@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour {
 #pragma warning restore 0108
 
 	public void Hurt() {
+		if (hurt > -0.5f) {
+			return;
+		}
 		hurt = 0.5f;
 		health -= 1;
 		UpdateHealthUI();
@@ -56,9 +59,10 @@ public class PlayerController : MonoBehaviour {
 
 		arrowDelay -= Δt;
 
+		hurt -= Δt;
+
 		if (hurt > 0f) {
 			animator.SetInteger("State", 4);
-			hurt -= Δt;
 			return;
 		}
 
