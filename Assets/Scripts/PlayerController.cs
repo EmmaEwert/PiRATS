@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour {
 	float hurt;
 	int health = 6;
 	int maxHealth = 6;
+	float arrowDelay;
 
 	Animator animator => transform.Find("Sprite").GetComponent<Animator>();
 #pragma warning disable 0108
@@ -33,6 +34,8 @@ public class PlayerController : MonoBehaviour {
 
     void Update() {
 		var Δt = Time.deltaTime;
+
+		arrowDelay -= Δt;
 
 		if (hurt > 0f) {
 			animator.SetInteger("State", 4);
@@ -67,8 +70,9 @@ public class PlayerController : MonoBehaviour {
 		aimIndicator.localRotation = Quaternion.Euler(-transform.localRotation.eulerAngles.x, 0f, aim + 45f);
 
 		// Arrows fire in the direction the indicator is showing. TODO: Fix indicator angle.
-		if (Input.GetButtonDown("Fire1")) {
+		if (Input.GetButton("Fire1") && arrowDelay <= 0f) {
 			Instantiate(arrowPrefab, transform.position + Vector3.right, Quaternion.Euler(0f, 0f, aim - 45f));
+			arrowDelay = 0.5f;
 		}
     }
 
