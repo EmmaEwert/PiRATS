@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour {
 	int health = 0;
 	int maxHealth = 4;
 	float arrowDelay;
+	float footstep;
 
 	Animator animator => transform.Find("Sprite").GetComponent<Animator>();
 #pragma warning disable 0108
@@ -35,6 +36,9 @@ public class PlayerController : MonoBehaviour {
 			animator.SetInteger("State", 5);
 			enabled = false;
 			Destroy(rigidbody);
+			transform.Find("player_die").GetComponent<AudioSource>().Play();
+		} else {
+			transform.Find("player_hit").GetComponent<AudioSource>().Play();
 		}
 		PlayerPrefs.SetInt("Health", health);
 	}
@@ -75,6 +79,11 @@ public class PlayerController : MonoBehaviour {
 		if (movement.magnitude < 0.125f) {
 			animator.SetInteger("State", 0);
 		} else {
+			footstep += movement.magnitude * Δt;
+			if (footstep > 0.25f) {
+				transform.Find("player_footstep").GetComponent<AudioSource>().Play();
+				footstep -= 0.25f;
+			}
 			animator.SetFloat("Speed", movement.magnitude);
 			if (Mathf.Abs(movement.x) > Mathf.Abs(movement.y * 2f)) {
 				renderer.flipX = movement.x < 0;

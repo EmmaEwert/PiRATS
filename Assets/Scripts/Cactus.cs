@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Cactus : MonoBehaviour {
 	public GameObject thornPrefab;
+	public GameObject silverCoinPrefab;
+	public GameObject goldCoinPrefab;
 	[TiledProperty, HideInInspector, SerializeField] public float delay;
 	[TiledProperty, HideInInspector, SerializeField] public float charge;
 
@@ -19,6 +21,17 @@ public class Cactus : MonoBehaviour {
 		hurt = 0.5f;
 		--health;
 		if (health == 0) {
+			// Spawn coins
+			var silver = Random.Range(0, 6);
+			var gold = Random.Range(0, 3);
+			for (var i = 0; i < silver; ++i) {
+				var position = Random.insideUnitCircle;
+				Instantiate(silverCoinPrefab, transform.position + new Vector3(position.x, position.y), Quaternion.Euler(-45f, 0f, 0f));
+			}
+			for (var i = 0; i < gold; ++i) {
+				var position = Random.insideUnitCircle;
+				Instantiate(goldCoinPrefab, transform.position + new Vector3(position.x, position.y), Quaternion.Euler(-45f, 0f, 0f));
+			}
 			Destroy(gameObject);
 		}
 	}
@@ -62,6 +75,7 @@ public class Cactus : MonoBehaviour {
 			var thorn = Instantiate(thornPrefab, transform.position + Vector3.right, Quaternion.Euler(0f, 0f, angle));
 		}
 		cardinal = !cardinal;
+		transform.Find("cactus_needleshot").GetComponent<AudioSource>().Play();
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {

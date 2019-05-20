@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="96" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="707">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="96" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="708">
  <tileset firstgid="1" source="../Ground.tsx"/>
  <tileset firstgid="65" source="../Objects.tsx"/>
  <layer id="9" name="2D" width="96" height="80">
@@ -2907,6 +2907,11 @@
   <object id="706" type="Warp" x="528" y="800" width="16" height="16">
    <properties>
     <property name="Destination" value="Village"/>
+   </properties>
+  </object>
+  <object id="707" type="Warp" x="1168" y="576" width="16" height="16">
+   <properties>
+    <property name="Destination" value="Temple"/>
    </properties>
   </object>
  </objectgroup>
