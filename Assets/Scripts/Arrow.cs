@@ -31,5 +31,9 @@ public class Arrow : MonoBehaviour {
 		if (cactus) {
 			cactus.Hurt();
 		}
+		var ratSparrow = collision.transform.GetComponent<RatSparrow>();
+		if (ratSparrow) {
+			ratSparrow.Hurt();
+		}
 	}
 }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8747034062505475702}
   - component: {fileID: 7419366166282496155}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -91,7 +91,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3015722703178591756}
   - component: {fileID: 1382493113561978532}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1885197687233383049}
   - component: {fileID: 224860636593226986}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -249,7 +249,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3929378003119472850}
   - component: {fileID: 1886912908593930260}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -328,7 +328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8549669036997256651}
   - component: {fileID: 4760037199002808467}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6668393200927095157}
   - component: {fileID: 3900760910467864827}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -488,7 +488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3108105987776969902}
   - component: {fileID: 4693218387361866411}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -567,7 +567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6841550774769592936}
   - component: {fileID: 5300249937102279789}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -648,7 +648,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7409762890462603471}
   - component: {fileID: 6422288260103064250}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -729,7 +729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8449995810416135421}
   - component: {fileID: 691570246240747055}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -810,7 +810,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2142733132112055189}
   - component: {fileID: 5528574861059807339}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -889,7 +889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3478316541450435732}
   - component: {fileID: 8851423788639502028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -970,7 +970,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6073074433446734790}
   - component: {fileID: 7261093140768650789}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1049,7 +1049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 309245844113697543}
   - component: {fileID: 1240508690117769629}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1130,7 +1130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3503802494409952584}
   - component: {fileID: 6679575489438493823}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1209,7 +1209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8360241337845838133}
   - component: {fileID: 5864039742571485240}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (0)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1290,7 +1290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6385501098057575926}
   - component: {fileID: 1493846723583711769}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1369,7 +1369,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3260281740509392788}
   - component: {fileID: 6095453452813803543}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1448,7 +1448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7494571655854833993}
   - component: {fileID: 7550796227157335955}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1527,7 +1527,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7429857530880927084}
   - component: {fileID: 3959213073742520540}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1611,6 +1611,55 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tail: {fileID: 5852833564071123773}
+  bombPrefab: {fileID: 718461422436382805, guid: 29695dc1dd4548245a558fcfa633e9ee,
+    type: 3}
+--- !u!61 &4596793275746673921
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3006161597443119263}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1, y: 1}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3, y: 2}
+  m_EdgeRadius: 0
+--- !u!50 &7681331746397490836
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3006161597443119263}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &3142438822413855094
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,7 +1670,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3943557542696092307}
   - component: {fileID: 4151188659092764171}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1700,7 +1749,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7757958234514348813}
   - component: {fileID: 5605062425296100526}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1779,7 +1828,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3987752145691476612}
   - component: {fileID: 5502430722935734550}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1858,7 +1907,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2051167989321292996}
   - component: {fileID: 8818265515811493779}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1937,7 +1986,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5010473862720691908}
   - component: {fileID: 2623551380420086666}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2016,7 +2065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3124054654041524721}
   - component: {fileID: 2411591685378302333}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2095,7 +2144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 433363701619247510}
   - component: {fileID: 4624123876058892789}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2174,7 +2223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8504773841895430238}
   - component: {fileID: 7771406193436168000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2255,7 +2304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3107275933995005443}
   - component: {fileID: 849437752368604087}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2336,7 +2385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1269732322050596761}
   - component: {fileID: 5752337171035345865}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2415,7 +2464,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5020069966836566101}
   - component: {fileID: 1877624340253291211}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2494,7 +2543,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4505422872589258376}
   - component: {fileID: 1160815187169816848}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2575,7 +2624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2963241122060015829}
   - component: {fileID: 4291642398226918728}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2654,7 +2703,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4597566769240873928}
   - component: {fileID: 4868045663981623032}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2735,7 +2784,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8743077799729710090}
   - component: {fileID: 5908267399042614068}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2815,7 +2864,7 @@ GameObject:
   - component: {fileID: 3615346264773328258}
   - component: {fileID: 7650548605539534470}
   - component: {fileID: 8225084612271933515}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2913,7 +2962,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5852833564071123773}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Tail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2960,7 +3009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6206220445701564102}
   - component: {fileID: 7134409813120832961}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3041,7 +3090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7216144932060546934}
   - component: {fileID: 6952850449106467512}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3122,7 +3171,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3119148374643708304}
   - component: {fileID: 6477753345880288669}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3201,7 +3250,7 @@ GameObject:
   m_Component:
   - component: {fileID: 934518462830170586}
   - component: {fileID: 1882086294937833067}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3280,7 +3329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6520421775859248495}
   - component: {fileID: 1439635291013291348}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Orb (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3361,7 +3410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1877108764196604452}
   - component: {fileID: 1315788031512241080}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3440,7 +3489,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7652243615159776612}
   - component: {fileID: 5445500944555324249}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3519,7 +3568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6271447674059691168}
   - component: {fileID: 6990616332852120368}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3598,7 +3647,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3776232390206667950}
   - component: {fileID: 8837106487274182918}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Outline (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3677,7 +3726,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6939280569569526782}
   - component: {fileID: 6683365130747929708}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3756,7 +3805,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7755425289881768055}
   - component: {fileID: 3509041697348354983}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3835,7 +3884,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1529315605215519533}
   - component: {fileID: 5020693070520199632}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3914,7 +3963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6519051573981259145}
   - component: {fileID: 8799121639457721705}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4001,6 +4050,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 8187620975531175262, guid: bb126864d78ff054583bc400ecd25c2f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7587273533342407574, guid: bb126864d78ff054583bc400ecd25c2f,
         type: 3}
       propertyPath: m_LocalPosition.x

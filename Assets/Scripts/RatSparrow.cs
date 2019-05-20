@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class RatSparrow : MonoBehaviour {
 	public Transform tail;
+	public GameObject bombPrefab;
 
 	float attack = 0f;
 	float attackX = 0;
@@ -9,15 +11,37 @@ public class RatSparrow : MonoBehaviour {
 
 	float phase;
 	float @throw;
+	float hurt;
 
 #pragma warning disable 0108
 	Animator animator => GetComponentInChildren<Animator>();
 #pragma warning restore 0108
 
+	int health = 30;
+
+	public void Hurt() {
+		if (hurt > 0f) {
+			return;
+		}
+		--health;
+		if (health <= 0) {
+			SceneManager.LoadScene("End", LoadSceneMode.Single);
+		}
+		hurt = 0.5f;
+		animator.SetInteger("State", 5);
+	}
+
     void Update() {
 		var Δt = Time.deltaTime;
 
+		hurt -= Δt;
+
+		if (hurt > 0f) {
+			return;
+		}
+
 		phase += Δt;
+
 		if (phase < 21f) {
 			if (phase < 20f) {
 				ThrowPhase();
@@ -69,7 +93,7 @@ public class RatSparrow : MonoBehaviour {
 	}
 
 	void Throw() {
-		Debug.Log("Throw");
+		Instantiate(bombPrefab, transform.position + Vector3.down * 0.25f + Vector3.back * 1.75f, Quaternion.Euler(-60f, 0f, 0f));
 	}
 
 	void TurnPhase() {
@@ -101,7 +125,7 @@ public class RatSparrow : MonoBehaviour {
 
 		var attack = Mathf.PingPong(this.attack, 1.125f);
 
-		if (attack < 0.9375f) {
+		if (attack < 1.0f) {
 			var player = GameObject.FindObjectOfType<PlayerController>().transform;
 			attackX = Mathf.Lerp(attackX, (player.position.x - transform.position.x) * 1.25f, Δt);
 			attackY = Mathf.Lerp(attackY, (player.position.y - transform.position.y) / tail.childCount * 1.25f, Δt);
@@ -110,7 +134,7 @@ public class RatSparrow : MonoBehaviour {
 		for (var i = 0; i < tail.childCount; ++i) {
 			var child = tail.GetChild(i);
 			var tailPosition = new Vector3(Mathf.Cos(t + i / 2f) * Mathf.Pow(i, 1f / 1.5f) / (tail.childCount - 5f) + 0.5f, (Mathf.Sin(t + i / 3f) * 0.5f + 0.5f) * Mathf.Pow(i, 1f / 1.5f) / (tail.childCount - 11f) + 1f, -0.25f * Mathf.Pow(i, 1f / 1.5f));
-			var attackPosition = Vector3.ClampMagnitude(new Vector3(attackX * Mathf.Pow((float)i / (tail.childCount - 2f), 0.5f) + 0.5f / (i + 1), -attackY * -1.0f * i / 2f + 1f / (i + 1), -attackY * -0.75f * i), i / 0.5f);
+			var attackPosition = Vector3.ClampMagnitude(new Vector3(attackX * Mathf.Pow((float)i / (tail.childCount - 4f), 0.5f) + 0.5f / (i + 1), -attackY * -1.0f * i / 2f + 1f / (i + 1), -attackY * -0.75f * i), i / 0.5f);
 			var attackAlpha = Mathf.Pow(attack * Mathf.Pow(((tail.childCount - i) / (tail.childCount - 1f)), 1f / 32f), 16f);
 			var player = FindObjectOfType<PlayerController>();
 			var newPosition = Vector3.Lerp(tailPosition, attackPosition, attackAlpha);

@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Wasteland.unity
     guid: f1e142c3cc2e3d64abbb13dba6a0005b
+  - enabled: 1
+    path: Assets/Scenes/Temple.unity
+    guid: f810ede65ed7c714b9e94e267b33cc4c
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: 19efe9fbd4af07043bb283d37b6e6da0
   m_configObjects: {}
