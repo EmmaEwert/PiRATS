@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 
 	float hurt;
 	int health = 0;
-	int maxHealth = 4;
+	int maxHealth = 6;
 	float arrowDelay;
 	float footstep;
 
@@ -50,7 +50,7 @@ public class PlayerController : MonoBehaviour {
 	void Start() {
 		health = PlayerPrefs.GetInt("Health");
 		if (SceneManager.GetActiveScene().name == "Village" && health > 0) {
-			transform.position = new Vector3(34, 20);
+			//transform.position = new Vector3(34, 20);
 		} else if (health <= 0) {
 			PlayerPrefs.SetInt("Health", maxHealth);
 			health = maxHealth;
@@ -81,7 +81,6 @@ public class PlayerController : MonoBehaviour {
 		} else {
 			footstep += movement.magnitude * Δt;
 			if (footstep > 0.25f) {
-				transform.Find("player_footstep").GetComponent<AudioSource>().Play();
 				footstep -= 0.25f;
 			}
 			animator.SetFloat("Speed", movement.magnitude);
@@ -104,7 +103,8 @@ public class PlayerController : MonoBehaviour {
 		// Arrows fire in the direction the indicator is showing. TODO: Fix indicator angle.
 		if (Input.GetButton("Fire1") && arrowDelay <= 0f) {
 			Instantiate(arrowPrefab, transform.position + Vector3.right, Quaternion.Euler(0f, 0f, aim - 45f));
-			arrowDelay = 0.75f;
+			arrowDelay = 1.0f;
+			transform.Find("player_footstep").GetComponent<AudioSource>().Play();
 		}
     }
 

@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class RatSparrow : MonoBehaviour {
 	public Transform tail;
 	public GameObject bombPrefab;
+	public RectTransform progress;
 
 	float attack = 0f;
 	float attackX = 0;
@@ -17,7 +18,8 @@ public class RatSparrow : MonoBehaviour {
 	Animator animator => GetComponentInChildren<Animator>();
 #pragma warning restore 0108
 
-	int health = 30;
+	int health = 50;
+	Vector2 healthSize;
 
 	public void Hurt() {
 		if (hurt > 0f) {
@@ -26,9 +28,23 @@ public class RatSparrow : MonoBehaviour {
 		--health;
 		if (health <= 0) {
 			SceneManager.LoadScene("End", LoadSceneMode.Single);
+		} else {
+			transform.Find("enemy_hit").GetComponent<AudioSource>().Play();
 		}
-		hurt = 0.5f;
+		hurt = 0.125f;
+		@throw = 0f;
 		animator.SetInteger("State", 5);
+		UpdateHealthUI();
+	}
+
+	void Start() {
+		healthSize = progress.sizeDelta;
+		UpdateHealthUI();
+	}
+
+	void UpdateHealthUI() {
+		progress.sizeDelta = new Vector2(healthSize.x * (float)health / 50f, progress.sizeDelta.y);
+		Debug.Log(progress.sizeDelta);
 	}
 
     void Update() {
@@ -42,13 +58,13 @@ public class RatSparrow : MonoBehaviour {
 
 		phase += Δt;
 
-		if (phase < 21f) {
-			if (phase < 20f) {
+		if (phase < 11f) {
+			if (phase < 10f) {
 				ThrowPhase();
 			} else {
 				TurnPhase();
 			}
-		} else if (phase < 40f) {
+		} else if (phase < 30f) {
 			TailPhase();
 		} else {
 			phase = 0f;
@@ -71,21 +87,12 @@ public class RatSparrow : MonoBehaviour {
 		}
 		if (phase < 5f) {
 			animator.SetInteger("State", 0); // Idle
-		} else if (phase < 10f) {
+		} else if (phase < 9.5f) {
 			animator.SetInteger("State", 1); // Throw
 			@throw += Δt;
 			if (@throw > 1f) {
 				Throw();
 				@throw -= 1f;
-			}
-		} else if (phase < 15f) {
-			animator.SetInteger("State", 0);
-		} else if (phase < 19.5) {
-			animator.SetInteger("State", 1); // Throw
-			@throw += Δt;
-			if (@throw > 1f) {
-				Throw();
-				@throw = 0f;
 			}
 		} else {
 			animator.SetInteger("State", 0);
@@ -94,6 +101,7 @@ public class RatSparrow : MonoBehaviour {
 
 	void Throw() {
 		Instantiate(bombPrefab, transform.position + Vector3.down * 0.25f + Vector3.back * 1.75f, Quaternion.Euler(-60f, 0f, 0f));
+		transform.Find("bomb_throw").GetComponent<AudioSource>().Play();
 	}
 
 	void TurnPhase() {

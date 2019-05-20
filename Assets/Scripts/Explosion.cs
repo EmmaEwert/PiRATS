@@ -3,6 +3,10 @@
 public class Explosion : MonoBehaviour {
 	float time;
 	
+	void Start() {
+		transform.Find("explosion_effect").GetComponent<AudioSource>().Play();
+	}
+	
     void Update() {
         time += Time.deltaTime;
 		if (time > 0.75f) {

@@ -20,17 +20,18 @@ public class Cactus : MonoBehaviour {
 	public void Hurt() {
 		hurt = 0.5f;
 		--health;
+		transform.Find("enemy_hit").GetComponent<AudioSource>().Play();
 		if (health == 0) {
 			// Spawn coins
 			var silver = Random.Range(0, 6);
 			var gold = Random.Range(0, 3);
 			for (var i = 0; i < silver; ++i) {
 				var position = Random.insideUnitCircle;
-				Instantiate(silverCoinPrefab, transform.position + new Vector3(position.x, position.y), Quaternion.Euler(-45f, 0f, 0f));
+				//Instantiate(silverCoinPrefab, transform.position + new Vector3(position.x, position.y), Quaternion.Euler(-45f, 0f, 0f));
 			}
 			for (var i = 0; i < gold; ++i) {
 				var position = Random.insideUnitCircle;
-				Instantiate(goldCoinPrefab, transform.position + new Vector3(position.x, position.y), Quaternion.Euler(-45f, 0f, 0f));
+				//Instantiate(goldCoinPrefab, transform.position + new Vector3(position.x, position.y), Quaternion.Euler(-45f, 0f, 0f));
 			}
 			Destroy(gameObject);
 		}

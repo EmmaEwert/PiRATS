@@ -1,226 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="48" height="48" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="172">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="96" height="80" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="172">
  <tileset firstgid="1" source="../Ground.tsx"/>
  <tileset firstgid="65" source="Village_assets_tiles.tsx"/>
  <tileset firstgid="545" source="../Objects.tsx"/>
- <layer id="7" name="2D" width="48" height="48">
+ <layer id="10" name="2D" width="96" height="80">
   <data encoding="base64" compression="zlib">
-   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
+   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
   </data>
  </layer>
- <layer id="6" name="3D" width="48" height="48">
+ <layer id="11" name="3D" width="96" height="80">
   <data encoding="base64" compression="zlib">
-   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
+   eJztm0esVUUYx89dWBI7sWtixYhi2auoyMaVBdvehVIs6AKVqqCSoIJib6hgAcWKJVHQRGOiG7EkYt2oqOxEExsSfzc5X+7c780M7x7ue/CY/y/55ZSZd+7N9005c+55VSWEEEIIIYQQQgghhBBCCDG0/IabtveXKJhdWlW1ayteptwMPYcQ+0MT8c/lRvSHk4jvyXWMfXvP5Ub0H9/eLTcah/pLGM9w39q7j7fGof4SxjPct/bu453Ki2hGOK7HYuvPpfIimhHOubHY+nOWh9R8vAbXBsdrB1YRWyHXDywPqfn4U/xs2L/xzkFujLFzPje+X7R5G98JtjF8PykZH0sj1g98bny/uJw6n+C6YGt5CGOuftLBx9JIjf1trK7vF9MpuwFvxJtwRtXJg8U81j9yfWVnx8fS4uzn2th4ZNjxQvbvwDvxLlyEi3F/ys7Aca2B/WNNsF8iPpYWZz/Xhv3jNLan4wF4IB6EB+NSyp7AJ/EpXIbL8XjKLsALI/n1/aJUfHtP3fu3OY/t+TgGT8ATcSy+RtlqfB3fwDfxrfr6V1B+ZWtgfu36JfeBNr69x+6DLFYWy8HwEX6MM6g/szUwv+H1S+4DqTVVeN5iZbEcDN/h91UnZz6/4fVL7gOpNVU47lisemn/3+C3VXfOHsFH3fVLbfu9POO0WFksJyeueT1+WO/fjguq7py9hC/X9Qy/XiiF1Lorh8VydqL8K/zanQvbv+VkQVBu67PSxqDcfU4Ki+U9PXzOIuovxklVd7+x41LvQ3Pr3BQWy2ciZT/gj/gTbsCf8Rf8FTfirKq73/jj0tq/EbsfTLGM8uWJOn/iX/g3/oP/4mb8D7fg3VV3vwmPS2v7IbH7wSbswd/uiXvh3rgP7ov74Sh8uuruN+Fx2Pbfxw+af40RQ+5+swlH8LdH4lF4NB6Dx+JoPC5z3XfxveD4S1zf/GuMGJr8lngm9c/ahhzF+By/6O8lRwRNxpuJ1L+oz/EvlSbv9tj9j+fcbfgev+Mf9X4pY39IahyK5SV3/9MrFvfduN7u9TVLGftDUuNQLC9TcCpehVfjNXgtTsPrIteOrQk21mUW98Pw8ALHtNS6N/euyRycizfjLTgP5+OteFvkM2Jrgi11mcX9FDy1wPinxh3/e0Aby8kSvBfvw/vxAXwQH8KHI58RWxOMqq9pcQ/H/5Lw7TvX7i0nz7L/HK7Alfg8voCr8MXIZ8TWBO21wGOUPV7XCcd/o4R5OPX7b6zd9/L+p3/OFuMVfLXej43/Jc3Dg2n3vbz/6Z+rbY1Sx39jMO3esOPYc37DP2cTcXpp90bsGZHPhX/OJuLk3qkNcxKeP5tz41ud7Tk4IXOcqj8Fp+IknFzo2OPbfeo9t/D8xWwvaXW2l+JlmeNU/Tk4F2fh7ELj78eSXu5HRf9IrYNTc4DoL6l7SrX74SE116rdDw+pudbQ/zwOH7m1gBh6YmOO5oHti+YBIYQQQgghhBBCCCGEEELs6PwP/ehHaQ==
   </data>
  </layer>
- <layer id="9" name="3D 2" width="48" height="48">
+ <layer id="12" name="3D 2" width="96" height="80">
   <data encoding="base64" compression="zlib">
-   eJztlkdOw0AUhjH9CpQrUA5BEUWiLiiiSHQuQOcCdC5A5wLULexgDzu4AL3s4YvkUawRI9sJmYfCfNIXxU8Tv38meVZychwOh8PhcGQDLdiKbdiOHdgpmigeQziMIziKYzgumigeUziNMziLczgvmigeS7iMK7iKa7gumigeW7iNO7iLe7gvGSgCV3jtvz/CYzzBUzzDc6FcUbnDe+kQDofDkYU84KN0iIhM4KRW+0q8ePazpMICLkqHSIMN3JQOkQYHeCgdIiI1WIt1WO/XGrARm7BZKFdUurAbe7DXr/VhPw7goEysf8kTPsdYf4GXGcqSCh7P99wYz/gbvM1YGkdcPvBToO8Lvv7CfYr47RUL/MfIo2e+3zedvZRxj3JL+d/w/Yd6cC9R1gep4nPVlvIX0Kcw0Cssn77ehK0ZKCFLqZfMHbYffb0pr60ZqKBHpZfMrfIp9P3o6015bc5AApVb5VPnazpvva7ntTUDqr/KrVDnazpvvW5zZoOY5lH/HenXYXVbmPrr34d+HVa3hXR/x9/gGxvZS6g=
+   eJzt2EdKBFEURmHbvAXDFgyLMGAA48CAAcxuwOwGzG7A7AaMU53pXGe6AXOY6y/Uw+Zh0dWGfi3vfHDELsrmcqu0GjMyAAAAAAAAAAAAAAAAAABAOmhQjapJNasW1ep0Ir/0qX41oAbVkBp2OpFfxtS4mlCTakpNO53IL3NqXi2oRbWklp1O5Jc1ta421KbaUtsuB/LAmToPvt9T++pAHaojdexoLl9cqWvXQwAAAACBG3XreghPjKhR69jbx5dY6mfx0YyadT2Ex1bUqushPLajdl0P4YkKVamqVHVwrEbVqjpV72guX7SpdtWhOoNjXapb9aheN2MBKXen7pM4/0Sd/tEsPorp831mEp/xL9Tln00D/C8v6tX1EP/Qg3r8hffJ09+ufP5HkbQs7Sw72NtPrkWR3qOY/UfypJ6/OB5/LaKcH69MP1fO/iPJ0Z5y43aVaL/2+WF4BkRToF0Wxj73nuh62Ocb9r55BkRToh2Vxj73bvZr2NfDPt+w980zIDlm72a/5v4Ou9/t4/a+eQZEY/Zn9m6Y+zvsfrePs+/vCXue2n+H7NeJjiOasP3Zvw/260THEQ37AwAAAAAAAAAAANLPO5I1S6g=
   </data>
  </layer>
  <objectgroup id="3" name="Objects">
-  <object id="1" type="Collision Object" gid="545" x="352" y="192" width="32" height="32"/>
-  <object id="6" type="Collision Object" gid="545" x="368" y="172" width="32" height="32"/>
-  <object id="7" type="Collision Object" gid="545" x="416" y="208" width="32" height="32"/>
-  <object id="8" type="Collision Object" gid="545" x="480" y="224" width="32" height="32"/>
-  <object id="9" type="Collision Object" gid="545" x="512" y="224" width="32" height="32"/>
-  <object id="10" type="Collision Object" gid="545" x="560" y="224" width="32" height="32"/>
-  <object id="11" type="Collision Object" gid="545" x="576" y="256" width="32" height="32"/>
-  <object id="12" type="Collision Object" gid="545" x="592" y="288" width="32" height="32"/>
-  <object id="13" type="Collision Object" gid="545" x="576" y="320" width="32" height="32"/>
-  <object id="14" type="Collision Object" gid="545" x="608" y="336" width="32" height="32"/>
-  <object id="15" type="Collision Object" gid="545" x="608" y="368" width="32" height="32"/>
-  <object id="16" type="Collision Object" gid="545" x="592" y="400" width="32" height="32"/>
-  <object id="17" type="Collision Object" gid="546" x="336" y="160" width="32" height="32"/>
-  <object id="18" type="Collision Object" gid="546" x="448" y="208" width="32" height="32"/>
-  <object id="19" type="Collision Object" gid="546" x="496" y="192" width="32" height="32"/>
-  <object id="20" type="Collision Object" gid="546" x="544" y="240" width="32" height="32"/>
-  <object id="21" type="Collision Object" gid="546" x="576" y="352" width="32" height="32"/>
-  <object id="22" type="Collision Object" gid="547" x="336" y="260" width="96" height="96">
+  <object id="1" type="Collision Object" gid="545" x="864" y="448" width="32" height="32"/>
+  <object id="6" type="Collision Object" gid="545" x="880" y="428" width="32" height="32"/>
+  <object id="7" type="Collision Object" gid="545" x="928" y="464" width="32" height="32"/>
+  <object id="8" type="Collision Object" gid="545" x="992" y="480" width="32" height="32"/>
+  <object id="9" type="Collision Object" gid="545" x="1024" y="480" width="32" height="32"/>
+  <object id="10" type="Collision Object" gid="545" x="1072" y="480" width="32" height="32"/>
+  <object id="11" type="Collision Object" gid="545" x="1088" y="512" width="32" height="32"/>
+  <object id="12" type="Collision Object" gid="545" x="1104" y="544" width="32" height="32"/>
+  <object id="13" type="Collision Object" gid="545" x="1088" y="576" width="32" height="32"/>
+  <object id="14" type="Collision Object" gid="545" x="1120" y="592" width="32" height="32"/>
+  <object id="15" type="Collision Object" gid="545" x="1120" y="624" width="32" height="32"/>
+  <object id="16" type="Collision Object" gid="545" x="1104" y="656" width="32" height="32"/>
+  <object id="17" type="Collision Object" gid="546" x="848" y="416" width="32" height="32"/>
+  <object id="18" type="Collision Object" gid="546" x="960" y="464" width="32" height="32"/>
+  <object id="19" type="Collision Object" gid="546" x="1008" y="448" width="32" height="32"/>
+  <object id="20" type="Collision Object" gid="546" x="1056" y="496" width="32" height="32"/>
+  <object id="21" type="Collision Object" gid="546" x="1088" y="608" width="32" height="32"/>
+  <object id="22" type="Collision Object" gid="547" x="848" y="516" width="96" height="96">
    <properties>
     <property name="Height" type="float" value="4"/>
     <property name="Width" type="float" value="6"/>
    </properties>
   </object>
-  <object id="23" type="Collision Object" gid="548" x="224" y="544" width="160" height="96">
-   <properties>
-    <property name="Height" type="float" value="4"/>
-    <property name="Width" type="float" value="8"/>
-   </properties>
-  </object>
-  <object id="24" type="Collision Object" gid="549" x="336" y="448" width="32" height="64"/>
-  <object id="25" type="Collision Object" gid="549" x="256" y="368" width="32" height="64"/>
-  <object id="26" type="Collision Object" gid="549" x="480" y="400" width="32" height="64"/>
-  <object id="27" type="Collision Object" gid="549" x="544" y="400" width="32" height="64"/>
-  <object id="28" type="Collision Object" gid="549" x="384" y="608" width="32" height="64"/>
-  <object id="29" type="Collision Object" gid="550" x="352" y="416" width="128" height="64">
+  <object id="23" type="Collision Object" gid="548" x="736" y="800" width="160" height="96">
    <properties>
     <property name="Height" type="float" value="4"/>
     <property name="Width" type="float" value="8"/>
    </properties>
   </object>
-  <object id="30" type="Object" gid="551" x="416" y="420" width="32" height="48"/>
-  <object id="31" type="Object" gid="552" x="288" y="548" width="32" height="48"/>
-  <object id="32" type="Collision Object" gid="553" x="528" y="560" width="32" height="32"/>
-  <object id="34" name="Player" type="Player" x="368" y="260" width="16" height="16"/>
-  <object id="35" type="Collision Object" gid="545" x="388" y="180" width="32" height="32"/>
-  <object id="36" type="Collision Object" gid="545" x="408" y="192" width="32" height="32"/>
-  <object id="37" type="Collision Object" gid="545" x="432" y="200" width="32" height="32"/>
-  <object id="38" type="Collision Object" gid="545" x="504" y="212" width="32" height="32"/>
-  <object id="39" type="Collision Object" gid="545" x="560" y="252" width="32" height="32"/>
-  <object id="40" type="Collision Object" gid="545" x="596" y="312" width="32" height="32"/>
-  <object id="41" type="Collision Object" gid="545" x="588" y="344" width="32" height="32"/>
-  <object id="42" type="Collision Object" gid="545" x="600" y="384" width="32" height="32"/>
-  <object id="44" type="Collision Object" gid="546" x="576" y="288" width="32" height="32"/>
-  <object id="45" type="Collision Object" gid="546" x="584" y="264" width="32" height="32"/>
-  <object id="46" type="Collision Object" gid="546" x="532" y="228" width="32" height="32"/>
-  <object id="47" type="Collision Object" gid="546" x="496" y="228" width="32" height="32"/>
-  <object id="48" type="Collision Object" gid="546" x="464" y="200" width="32" height="32"/>
-  <object id="49" type="Collision Object" gid="546" x="456" y="220" width="32" height="32"/>
-  <object id="50" type="Collision Object" gid="546" x="344" y="168" width="32" height="32"/>
-  <object id="51" type="Collision Object" gid="546" x="332" y="188" width="32" height="32"/>
-  <object id="54" type="Collision Object" gid="555" x="480" y="288" width="32" height="64"/>
-  <object id="55" type="Collision Object" gid="555" x="512" y="288" width="32" height="64"/>
-  <object id="56" type="Collision Object" gid="555" x="544" y="304" width="32" height="64"/>
-  <object id="57" type="Collision Object" gid="555" x="304" y="224" width="32" height="64"/>
-  <object id="58" type="Collision Object" gid="555" x="112" y="384" width="32" height="64"/>
-  <object id="59" type="Collision Object" gid="555" x="240" y="224" width="32" height="64"/>
-  <object id="60" type="Collision Object" gid="555" x="208" y="320" width="32" height="64"/>
-  <object id="61" type="Collision Object" gid="555" x="160" y="304" width="32" height="64"/>
-  <object id="62" type="Collision Object" gid="555" x="216" y="256" width="32" height="64"/>
-  <object id="63" type="Collision Object" gid="555" x="128" y="352" width="32" height="64"/>
-  <object id="64" type="Collision Object" gid="555" x="268" y="204" width="32" height="64"/>
-  <object id="65" type="Collision Object" gid="555" x="96" y="432" width="32" height="64"/>
-  <object id="66" type="Collision Object" gid="555" x="96" y="480" width="32" height="64"/>
-  <object id="67" type="Collision Object" gid="555" x="128" y="528" width="32" height="64"/>
-  <object id="69" type="Collision Object" gid="555" x="112" y="512" width="32" height="64"/>
-  <object id="70" type="Collision Object" gid="555" x="160" y="592" width="32" height="64"/>
-  <object id="74" type="Collision Object" gid="555" x="224" y="656" width="32" height="64"/>
-  <object id="76" type="Collision Object" gid="555" x="256" y="688" width="32" height="64"/>
-  <object id="78" type="Collision Object" gid="555" x="320" y="720" width="32" height="64"/>
-  <object id="81" type="Collision Object" gid="555" x="448" y="688" width="32" height="64"/>
-  <object id="82" type="Collision Object" gid="555" x="480" y="720" width="32" height="64"/>
-  <object id="83" type="Collision Object" gid="555" x="384" y="720" width="32" height="64"/>
-  <object id="88" type="Collision Object" gid="555" x="304" y="704" width="32" height="64"/>
-  <object id="89" type="Collision Object" gid="555" x="240" y="672" width="32" height="64"/>
-  <object id="90" type="Collision Object" gid="555" x="208" y="624" width="32" height="64"/>
-  <object id="92" type="Collision Object" gid="555" x="144" y="576" width="32" height="64"/>
-  <object id="93" type="Collision Object" gid="555" x="176" y="608" width="32" height="64"/>
-  <object id="94" type="Collision Object" gid="555" x="128" y="560" width="32" height="64"/>
-  <object id="97" type="Collision Object" gid="556" x="512" y="688" width="32" height="64"/>
-  <object id="98" type="Collision Object" gid="556" x="576" y="672" width="32" height="64"/>
-  <object id="99" type="Collision Object" gid="556" x="560" y="608" width="32" height="64"/>
-  <object id="100" type="Collision Object" gid="556" x="576" y="576" width="32" height="64"/>
-  <object id="104" type="Collision Object" gid="556" x="560" y="704" width="32" height="64"/>
-  <object id="105" type="Collision Object" gid="556" x="528" y="672" width="32" height="64"/>
-  <object id="106" type="Collision Object" gid="557" x="240" y="640" width="32" height="32"/>
-  <object id="107" type="Collision Object" gid="557" x="272" y="640" width="32" height="32"/>
-  <object id="108" type="Collision Object" gid="557" x="336" y="640" width="32" height="32"/>
-  <object id="109" type="Collision Object" gid="557" x="400" y="640" width="32" height="32"/>
-  <object id="110" type="Collision Object" gid="557" x="432" y="640" width="32" height="32"/>
-  <object id="111" type="Collision Object" gid="557" x="464" y="640" width="32" height="32"/>
-  <object id="112" type="Collision Object" gid="558" x="304" y="640" width="32" height="32"/>
-  <object id="113" type="Collision Object" gid="558" x="368" y="640" width="32" height="32"/>
-  <object id="114" type="Collision Object" gid="558" x="496" y="640" width="32" height="32"/>
-  <object id="115" type="Collision Object" gid="555" x="400" y="672" width="32" height="64"/>
-  <object id="116" type="Collision Object" gid="555" x="352" y="688" width="32" height="64"/>
-  <object id="117" type="Collision Object" gid="559" x="528" y="640" width="32" height="32"/>
-  <object id="118" type="Collision Object" gid="560" x="560" y="640" width="32" height="32"/>
-  <object id="119" type="Collision Object" gid="561" x="416" y="288" width="32" height="32"/>
-  <object id="120" type="Collision Object" gid="561" x="288" y="272" width="32" height="32"/>
-  <object id="121" type="Collision Object" gid="562" x="496" y="336" width="16" height="16">
+  <object id="24" type="Collision Object" gid="549" x="848" y="704" width="32" height="64"/>
+  <object id="25" type="Collision Object" gid="549" x="768" y="624" width="32" height="64"/>
+  <object id="26" type="Collision Object" gid="549" x="992" y="656" width="32" height="64"/>
+  <object id="27" type="Collision Object" gid="549" x="1056" y="656" width="32" height="64"/>
+  <object id="28" type="Collision Object" gid="549" x="896" y="864" width="32" height="64"/>
+  <object id="29" type="Collision Object" gid="550" x="864" y="672" width="128" height="64">
+   <properties>
+    <property name="Height" type="float" value="4"/>
+    <property name="Width" type="float" value="8"/>
+   </properties>
+  </object>
+  <object id="30" type="Object" gid="551" x="928" y="676" width="32" height="48"/>
+  <object id="31" type="Object" gid="552" x="800" y="804" width="32" height="48"/>
+  <object id="32" type="Collision Object" gid="553" x="1040" y="816" width="32" height="32"/>
+  <object id="34" name="Player" type="Player" x="880" y="516" width="16" height="16"/>
+  <object id="35" type="Collision Object" gid="545" x="900" y="436" width="32" height="32"/>
+  <object id="36" type="Collision Object" gid="545" x="920" y="448" width="32" height="32"/>
+  <object id="37" type="Collision Object" gid="545" x="944" y="456" width="32" height="32"/>
+  <object id="38" type="Collision Object" gid="545" x="1016" y="468" width="32" height="32"/>
+  <object id="39" type="Collision Object" gid="545" x="1072" y="508" width="32" height="32"/>
+  <object id="40" type="Collision Object" gid="545" x="1108" y="568" width="32" height="32"/>
+  <object id="41" type="Collision Object" gid="545" x="1100" y="600" width="32" height="32"/>
+  <object id="42" type="Collision Object" gid="545" x="1112" y="640" width="32" height="32"/>
+  <object id="44" type="Collision Object" gid="546" x="1088" y="544" width="32" height="32"/>
+  <object id="45" type="Collision Object" gid="546" x="1096" y="520" width="32" height="32"/>
+  <object id="46" type="Collision Object" gid="546" x="1044" y="484" width="32" height="32"/>
+  <object id="47" type="Collision Object" gid="546" x="1008" y="484" width="32" height="32"/>
+  <object id="48" type="Collision Object" gid="546" x="976" y="456" width="32" height="32"/>
+  <object id="49" type="Collision Object" gid="546" x="968" y="476" width="32" height="32"/>
+  <object id="50" type="Collision Object" gid="546" x="856" y="424" width="32" height="32"/>
+  <object id="51" type="Collision Object" gid="546" x="844" y="444" width="32" height="32"/>
+  <object id="54" type="Collision Object" gid="555" x="992" y="544" width="32" height="64"/>
+  <object id="55" type="Collision Object" gid="555" x="1024" y="544" width="32" height="64"/>
+  <object id="56" type="Collision Object" gid="555" x="1056" y="560" width="32" height="64"/>
+  <object id="57" type="Collision Object" gid="555" x="816" y="480" width="32" height="64"/>
+  <object id="58" type="Collision Object" gid="555" x="624" y="640" width="32" height="64"/>
+  <object id="59" type="Collision Object" gid="555" x="752" y="480" width="32" height="64"/>
+  <object id="60" type="Collision Object" gid="555" x="720" y="576" width="32" height="64"/>
+  <object id="61" type="Collision Object" gid="555" x="672" y="560" width="32" height="64"/>
+  <object id="62" type="Collision Object" gid="555" x="728" y="512" width="32" height="64"/>
+  <object id="63" type="Collision Object" gid="555" x="640" y="608" width="32" height="64"/>
+  <object id="64" type="Collision Object" gid="555" x="780" y="460" width="32" height="64"/>
+  <object id="65" type="Collision Object" gid="555" x="608" y="688" width="32" height="64"/>
+  <object id="66" type="Collision Object" gid="555" x="608" y="736" width="32" height="64"/>
+  <object id="67" type="Collision Object" gid="555" x="640" y="784" width="32" height="64"/>
+  <object id="69" type="Collision Object" gid="555" x="624" y="768" width="32" height="64"/>
+  <object id="70" type="Collision Object" gid="555" x="672" y="848" width="32" height="64"/>
+  <object id="74" type="Collision Object" gid="555" x="736" y="912" width="32" height="64"/>
+  <object id="76" type="Collision Object" gid="555" x="768" y="944" width="32" height="64"/>
+  <object id="78" type="Collision Object" gid="555" x="832" y="976" width="32" height="64"/>
+  <object id="81" type="Collision Object" gid="555" x="960" y="944" width="32" height="64"/>
+  <object id="82" type="Collision Object" gid="555" x="992" y="976" width="32" height="64"/>
+  <object id="83" type="Collision Object" gid="555" x="896" y="976" width="32" height="64"/>
+  <object id="88" type="Collision Object" gid="555" x="816" y="960" width="32" height="64"/>
+  <object id="89" type="Collision Object" gid="555" x="752" y="928" width="32" height="64"/>
+  <object id="90" type="Collision Object" gid="555" x="720" y="880" width="32" height="64"/>
+  <object id="92" type="Collision Object" gid="555" x="656" y="832" width="32" height="64"/>
+  <object id="93" type="Collision Object" gid="555" x="688" y="864" width="32" height="64"/>
+  <object id="94" type="Collision Object" gid="555" x="640" y="816" width="32" height="64"/>
+  <object id="97" type="Collision Object" gid="556" x="1024" y="944" width="32" height="64"/>
+  <object id="98" type="Collision Object" gid="556" x="1088" y="928" width="32" height="64"/>
+  <object id="99" type="Collision Object" gid="556" x="1072" y="864" width="32" height="64"/>
+  <object id="100" type="Collision Object" gid="556" x="1088" y="832" width="32" height="64"/>
+  <object id="104" type="Collision Object" gid="556" x="1072" y="960" width="32" height="64"/>
+  <object id="105" type="Collision Object" gid="556" x="1040" y="928" width="32" height="64"/>
+  <object id="106" type="Collision Object" gid="557" x="752" y="896" width="32" height="32"/>
+  <object id="107" type="Collision Object" gid="557" x="784" y="896" width="32" height="32"/>
+  <object id="108" type="Collision Object" gid="557" x="848" y="896" width="32" height="32"/>
+  <object id="109" type="Collision Object" gid="557" x="912" y="896" width="32" height="32"/>
+  <object id="110" type="Collision Object" gid="557" x="944" y="896" width="32" height="32"/>
+  <object id="111" type="Collision Object" gid="557" x="976" y="896" width="32" height="32"/>
+  <object id="112" type="Collision Object" gid="558" x="816" y="896" width="32" height="32"/>
+  <object id="113" type="Collision Object" gid="558" x="880" y="896" width="32" height="32"/>
+  <object id="114" type="Collision Object" gid="558" x="1008" y="896" width="32" height="32"/>
+  <object id="115" type="Collision Object" gid="555" x="912" y="928" width="32" height="64"/>
+  <object id="116" type="Collision Object" gid="555" x="864" y="944" width="32" height="64"/>
+  <object id="117" type="Collision Object" gid="559" x="1040" y="896" width="32" height="32"/>
+  <object id="118" type="Collision Object" gid="560" x="1072" y="896" width="32" height="32"/>
+  <object id="119" type="Collision Object" gid="561" x="928" y="544" width="32" height="32"/>
+  <object id="120" type="Collision Object" gid="561" x="800" y="528" width="32" height="32"/>
+  <object id="121" type="Collision Object" gid="562" x="1008" y="592" width="16" height="16">
    <properties>
     <property name="Height" type="float" value="0.5"/>
     <property name="Width" type="float" value="1"/>
    </properties>
   </object>
-  <object id="122" type="Collision Object" gid="562" x="512" y="336" width="16" height="16">
+  <object id="122" type="Collision Object" gid="562" x="1024" y="592" width="16" height="16">
    <properties>
     <property name="Height" type="float" value="0.5"/>
     <property name="Width" type="float" value="1"/>
    </properties>
   </object>
-  <object id="123" type="Collision Object" gid="562" x="528" y="336" width="16" height="16">
+  <object id="123" type="Collision Object" gid="562" x="1040" y="592" width="16" height="16">
    <properties>
     <property name="Height" type="float" value="0.5"/>
     <property name="Width" type="float" value="1"/>
    </properties>
   </object>
-  <object id="126" type="Collision Object" gid="563" x="496" y="320" width="32" height="32"/>
-  <object id="127" type="Collision Object" gid="564" x="416" y="320" width="32" height="32"/>
-  <object id="128" type="Collision Object" gid="555" x="176" y="576" width="32" height="64"/>
-  <object id="129" type="Collision Object" gid="565" x="368" y="336" width="32" height="32"/>
-  <object id="142" type="Collision Object" gid="571" x="240" y="256" width="32" height="32"/>
-  <object id="143" type="Collision Object" gid="572" x="272" y="256" width="32" height="32"/>
-  <object id="144" type="Collision Object" gid="569" x="304" y="256" width="32" height="32"/>
-  <object id="147" type="Collision Object" gid="555" x="224" y="304" width="32" height="64"/>
-  <object id="148" type="Collision Object" gid="573" x="152" y="340" width="96" height="64">
+  <object id="126" type="Collision Object" gid="563" x="1008" y="576" width="32" height="32"/>
+  <object id="127" type="Collision Object" gid="564" x="928" y="576" width="32" height="32"/>
+  <object id="128" type="Collision Object" gid="555" x="688" y="832" width="32" height="64"/>
+  <object id="129" type="Collision Object" gid="565" x="880" y="592" width="32" height="32"/>
+  <object id="142" type="Collision Object" gid="571" x="752" y="512" width="32" height="32"/>
+  <object id="143" type="Collision Object" gid="572" x="784" y="512" width="32" height="32"/>
+  <object id="144" type="Collision Object" gid="569" x="816" y="512" width="32" height="32"/>
+  <object id="147" type="Collision Object" gid="555" x="736" y="560" width="32" height="64"/>
+  <object id="148" type="Collision Object" gid="573" x="664" y="596" width="96" height="64">
    <properties>
     <property name="Height" type="float" value="4"/>
     <property name="Width" type="float" value="6"/>
    </properties>
   </object>
-  <object id="149" type="Collision Object" gid="574" x="576" y="432" width="32" height="32"/>
-  <object id="150" type="Collision Object" gid="575" x="640" y="416" width="32" height="32"/>
-  <object id="151" type="Collision Object" gid="575" x="632" y="480" width="32" height="32"/>
-  <object id="152" type="Collision Object" gid="575" x="656" y="560" width="32" height="32"/>
-  <object id="153" type="Collision Object" gid="554" x="112" y="448" width="96" height="48">
+  <object id="149" type="Collision Object" gid="574" x="1088" y="688" width="32" height="32"/>
+  <object id="150" type="Collision Object" gid="575" x="1152" y="672" width="32" height="32"/>
+  <object id="151" type="Collision Object" gid="575" x="1144" y="736" width="32" height="32"/>
+  <object id="152" type="Collision Object" gid="575" x="1168" y="816" width="32" height="32"/>
+  <object id="153" type="Collision Object" gid="554" x="624" y="704" width="96" height="48">
    <properties>
     <property name="Height" type="float" value="2"/>
     <property name="Width" type="float" value="6"/>
    </properties>
   </object>
-  <object id="156" type="Warp" x="624" y="400" width="16" height="16">
+  <object id="156" type="Warp" x="1136" y="656" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="157" type="Warp" x="624" y="416" width="16" height="16">
+  <object id="157" type="Warp" x="1136" y="672" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="158" type="Warp" x="624" y="432" width="16" height="16">
+  <object id="158" type="Warp" x="1136" y="688" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="159" type="Warp" x="624" y="448" width="16" height="16">
+  <object id="159" type="Warp" x="1136" y="704" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="160" type="Warp" x="624" y="464" width="16" height="16">
+  <object id="160" type="Warp" x="1136" y="720" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="161" type="Warp" x="624" y="480" width="16" height="16">
+  <object id="161" type="Warp" x="1136" y="736" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="162" type="Warp" x="624" y="496" width="16" height="16">
+  <object id="162" type="Warp" x="1136" y="752" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="163" type="Warp" x="624" y="512" width="16" height="16">
+  <object id="163" type="Warp" x="1136" y="768" width="16" height="16">
    <properties>
     <property name="Destination" value="Wasteland"/>
    </properties>
   </object>
-  <object id="164" type="Collision Object" gid="556" x="592" y="548" width="32" height="64"/>
-  <object id="165" type="Collision Object" gid="555" x="188" y="280" width="32" height="64"/>
-  <object id="166" type="Collision Object" gid="554" x="432" y="544" width="96" height="48">
+  <object id="164" type="Collision Object" gid="556" x="1104" y="804" width="32" height="64"/>
+  <object id="165" type="Collision Object" gid="555" x="700" y="536" width="32" height="64"/>
+  <object id="166" type="Collision Object" gid="554" x="944" y="800" width="96" height="48">
    <properties>
     <property name="Height" type="float" value="2"/>
     <property name="Width" type="float" value="6"/>
    </properties>
   </object>
-  <object id="168" type="Collision Object" gid="555" x="124" y="368" width="32" height="64"/>
-  <object id="169" type="Collision Object" gid="555" x="104" y="408" width="32" height="64"/>
-  <object id="170" type="Collision Object" gid="555" x="104" y="468" width="32" height="64"/>
-  <object id="171" type="Collision Object" gid="555" x="104" y="500" width="32" height="64"/>
+  <object id="168" type="Collision Object" gid="555" x="636" y="624" width="32" height="64"/>
+  <object id="169" type="Collision Object" gid="555" x="616" y="664" width="32" height="64"/>
+  <object id="170" type="Collision Object" gid="555" x="616" y="724" width="32" height="64"/>
+  <object id="171" type="Collision Object" gid="555" x="616" y="756" width="32" height="64"/>
  </objectgroup>
 </map>

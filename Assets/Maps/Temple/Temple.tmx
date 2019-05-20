@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="80" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="3">
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="80" height="64" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="12">
  <tileset firstgid="1" source="../Village/Village_assets_tiles.tsx"/>
+ <tileset firstgid="481" source="../Objects.tsx"/>
  <layer id="11" name="2D" width="80" height="64">
   <data encoding="base64" compression="zlib">
-   eJztmNFKw0AQAJvPSw3+QTD4rra2+q5G28/2FnbpEtLUIxa6l3kYlpLmKMPcJbSpVqsGAAAAAAAAAAAAYIS74OAPf/iLC/7wh7+44A9/+ItLdH9PiecrztL9fSQ+rzhL90d/9Ed/cf3R33xsnfvENvE6Y9Zuvb/8vuj+HhKdzsfEd+Jnxmzdet0C/NEf/dFfXH/0R3/0F9cf/dEf/cX1R3/0R39x/dEf/d1KfzLfEu8js1f2id3E94brle7Pd9IMPq8V6fKgmMfWXff3DWfp/sZ6MR/mR87FvXJUane9m1indH9T3fj+xNlOkQ7pL6+/L0X8yf6lv7z+NsqLOqS/6f68Pzv/ZA/36tD3d+7+Jffn96/0J83J/rUGfX/n7l9Kf5cQf9bdRl3W/7T2EvzJ/j2qv14dtvjL6s/eX6xB+svrT9zJM8TOQPrL60/c9dXpHZD+8vqzfWtnIP3l9WfPDfsPhv7y+hNnh+r0/nIr/f0CJPtdTQ==
+   eJztmMFOg0AQQNvPQ4l/QCTe1WqrdxW1n+1MMhMnhKIrHjrsO7xMGsqmfXkLhHa72bQAAAAAAAAAAAAAE1wmB3/4w19e8Ic//OUFf/jDX17W5u9WuFswa/f3IrwumLX7oz/6o7+8/ujvb/9B55XwIDwumE1Y7ze/L7u/a6G3eSO8Cx8LZhfW6yvwR3/0R395/dEf/dFfXn/0R3/0l9cf/dEf/eX1R3/0dy796XwSnifmYByE/cz3xuut3V/spB19vjC0y0/DPXbheDxvPNfub6oX9+F+9Lp4MI5GE473M+us3d9cN7E/dbY3tEP6K+vvzVB/un/pr6y/nXFvDulvvr/oz69/uocHcxj7O3V+zf3F/av9aXO6f73B2N+p82vp7yfUn3e3M5fNP61dgz/dv0fzN5jDDn9F/fnzizdIf2X9qTu9h/g1kP7K+lN3w/b7GZD+yvrzfevXQPor68/vG/4Ohv7KmHpPdQ7+vgCWe1TY
   </data>
  </layer>
  <layer id="12" name="3D" width="80" height="64">
@@ -19,5 +20,13 @@
  <objectgroup id="4" name="Objects">
   <object id="1" name="Player" type="Player" x="688" y="864" width="16" height="16"/>
   <object id="2" name="Rat Sparrow" type="Rat Sparrow" x="688" y="536" width="16" height="16"/>
+  <object id="3" type="Tilted Object" gid="513" x="576" y="512" width="32" height="256"/>
+  <object id="4" type="Tilted Object" gid="513" x="608" y="512" width="32" height="256"/>
+  <object id="5" type="Tilted Object" gid="513" x="640" y="512" width="32" height="256"/>
+  <object id="6" type="Tilted Object" gid="513" x="672" y="512" width="32" height="256"/>
+  <object id="7" type="Tilted Object" gid="513" x="704" y="512" width="32" height="256"/>
+  <object id="8" type="Tilted Object" gid="513" x="736" y="512" width="32" height="256"/>
+  <object id="9" type="Tilted Object" gid="513" x="768" y="512" width="32" height="256"/>
+  <object id="10" type="Tilted Object" gid="513" x="800" y="512" width="32" height="256"/>
  </objectgroup>
 </map>
